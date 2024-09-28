@@ -142,6 +142,7 @@ button {
     background-image: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Mobile-feature-BG-2x-1?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=2738&qlt=100&fmt=png-alpha&fit=constrain');
 height: 100%;
 background-repeat: no-repeat;
+object-fit: cover;
 }
 
 
