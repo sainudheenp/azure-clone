@@ -1,10 +1,14 @@
-*{
+* {
     padding: 0;
     margin: 0;
-   border: none;
+    border: none;
 }
 
-button{
+:root {
+    --border-white: #e6e6e6;
+}
+
+button {
     background-color: transparent;
     border: none;
 }
@@ -14,44 +18,63 @@ button{
 /* header */
 
 
-.top-nav{
+.top-nav {
     display: flex;
-    height: 49px;
-    /* align-items: center; */
+    /* height: 49px; */
+    align-items: center;
     justify-content: center;
+    border-bottom: 1px solid var(--border-white);
 }
 
 
-.ham-search{
+.ham-search {
     display: flex;
     position: absolute;
     left: 0;
-    
+
 }
 
 
-.hamburger{
+.hamburger {
     display: flex;
     justify-content: center;
     height: 48px;
     width: 48px;
     margin: 1px;
     padding: 6px 0 8px 0;
-}
-.hamburger img{
-width:20px;
-height: 20px;
-margin-top: 7px;
+    align-items: center;
 }
 
-.search{
-padding: 8px 8px 8px 0;
-}
-.search img{
-width: 20px;
-height: 20px;
+.hamburger img {
+    width: 20px;
+    height: 20px;
+    margin-top: 7px;
 }
 
+.search {
+    display: flex;
+    align-items: center;
+    padding-left: 7PX;
+}
+
+.search img {
+    padding: 8px 8px 8px 0;
+
+    width: 20px;
+    height: 20px;
+}
+
+
+.microsoft {
+    padding: 12px 4px;
+}
+
+.bottom-nav {
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+
+}
 
 
 
@@ -64,12 +87,9 @@ height: 20px;
 
 
 
-
-
-
-.logo-img img{
-height: 23px;
-width: 108px;
+.logo-img img {
+    height: 23px;
+    width: 108px;
 }
 
 /* .hamburger {
@@ -79,12 +99,11 @@ width: 108px;
 
 } */
 
-.bottom-nav{
+.bottom-nav {
     height: 34px;
-    width: 100%;
 }
 
-.downarrow{
+.downarrow {
     height: 12px;
 }
 
@@ -93,27 +112,36 @@ width: 108px;
 
 
 
-
-
-
-
 /* section 1  master*/
- 
 
 
 
 
-.master-parent{
+
+.master-parent {
     height: auto;
     width: 100%;
 }
 
-.master-img{
-    background-image: url(./asset/img/mob/master.webp);
+.master-img {
+    /* background-image: url(); */
+
+    width: 100%;
+
+}
+
+.master-img img {
+    width: 100%;
+
+    background-size: contain;
+}
+
+
+
+.bg-section {
+    background-image: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Mobile-feature-BG-2x-1?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=2738&qlt=100&fmt=png-alpha&fit=constrain');
 height: 100%;
-width: 100%;
-background-size: contain;
-background-repeat:no-repeat;
+background-repeat: no-repeat;
 }
 
 
@@ -126,9 +154,8 @@ background-repeat:no-repeat;
 
 
 
-@media screen and (min-width:900px){
-    body{
+@media screen and (min-width:900px) {
+    body {
         display: none;
     }
 }
-
