@@ -109,7 +109,9 @@ button {
 
 
 
-
+.card-img img{
+    width: 100%;
+}
 
 
 /* section 1  master*/
