@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     border: none;
+        /* font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif; */
+
 }
 
 :root {
@@ -149,9 +151,37 @@ object-fit: cover;
 
 
 
+/* container */
 
-
-
+.container-p{
+    padding: 0 16px;
+}
+.container{ 
+    margin-top: 2rem;
+}
+.limitless{
+    margin-bottom: 000.75rem;
+    font-weight: 600;
+    font-size: .75rem;
+    letter-spacing: 0.08em;
+    color: #17253d;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.trust h1{
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    letter-spacing: -.05em   
+}
+.container-para{
+    color: #17253d;
+    margin-top: 1rem;
+    padding-inline-end: 1rem;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    letter-spacing: -0.03rem;
+}
 
 
 
