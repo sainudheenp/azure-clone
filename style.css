@@ -206,9 +206,12 @@ object-fit: cover;
     gap: 0.5rem;
 }
 .content-btn a {
+    text-decoration: none;
     padding: 12px;
     background-color: rgba(0, 120, 212);
     color: rgba(255,255,255);
+    border-radius: 8px;
+    text-align: center;
 }
 
 
