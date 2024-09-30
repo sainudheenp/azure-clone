@@ -6,6 +6,19 @@
 
 }
 
+@font-face {
+    font-family: "Azure-N";
+    src: url(/asset/font/normal.woff2);
+}
+@font-face {
+    font-family: "Azure-B";
+    src: url(/asset/font/semi_bold.woff2);
+}
+@font-face {
+    font-family: "Azure-MW";
+    src: url('/asset/font/mwfmdl2-v3.54.woff');
+}
+
 :root {
     --border-white: #e6e6e6;
 }
@@ -175,13 +188,20 @@ object-fit: cover;
 }
 .container-para{
     color: #17253d;
+    /* font-family: Azure-b; */
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    ;
     margin-top: 1rem;
     padding-inline-end: 1rem;
-    font-weight: 400;
+    font-weight: 400;   
     font-size: 1.125rem;
     line-height: 1.75rem;
     letter-spacing: -0.03rem;
+    margin-bottom: 1.5rem;
 }
+
+
+
 
 
 
