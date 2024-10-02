@@ -35,10 +35,12 @@ button {
 
 .top-nav {
     display: flex;
-    /* height: 49px; */
+    height: 53px;
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid var(--border-white);
+    padding: 0 5px;
+    margin: 0;
 }
 
 
@@ -81,13 +83,15 @@ button {
 
 
 .microsoft {
-    padding: 12px 4px;
+    /* padding: 12px 4px; */
+    padding-top: 6px;
 }
 
 .bottom-nav {
     padding: 0 15px;
     display: flex;
     align-items: center;
+    height: 33px;
 
 }
 
@@ -157,7 +161,8 @@ button {
 
 .bg-section {
     background-image: url(./asset/img/mob/Mobile-Interactive-Demo-BG-2x.webp);
-    object-fit: cover;
+    object-fit: contain;
+
 
 }
 
