@@ -156,12 +156,11 @@ button {
 
 
 .bg-section {
-    background-image: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Mobile-feature-BG-2x-1?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=2738&qlt=100&fmt=png-alpha&fit=constrain');
-height: 100%;
-background-repeat: no-repeat;
-object-fit: cover;
-/* background-size: contain; */
+    background-image: url(./asset/img/mob/Mobile-Interactive-Demo-BG-2x.webp);
+    object-fit: cover;
+
 }
+
 
 
 
@@ -172,6 +171,7 @@ object-fit: cover;
 }
 .container{ 
     margin-top: 2rem;
+    padding-bottom: 56px;
 }
 .limitless{
     margin-bottom: 000.75rem;
@@ -214,7 +214,9 @@ object-fit: cover;
     border-radius: 8px;
     text-align: center;
 }
-
+.section-master{
+    margin-top:2rem;
+}
 
 
 
