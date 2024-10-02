@@ -160,6 +160,7 @@ button {
 height: 100%;
 background-repeat: no-repeat;
 object-fit: cover;
+/* background-size: contain; */
 }
 
 
