@@ -112,17 +112,20 @@ height: 50px;
 
 }
 .bottom-nav button{
+    display: flex;
+    flex-direction: row;
     font-weight: 600;
     font-size: 15px;
     /* height: 100%; */
     letter-spacing: normal;
-padding-top: 4px;
+/* padding-top: 4px; */
 margin: 0 1px;
 font-family:"Azure-B" ;
 }
 .downarrow {
     height: 12px;
-    padding-left: 7px;
+    padding-left: 12px;
+    padding-top: 5px    ;
 }
 
 
