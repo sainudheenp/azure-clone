@@ -10,7 +10,7 @@ font-family: sans-serif;
 :root{
     --border-fill:#e6e6e6 ;
 }
-
+ 
 
 
 
@@ -27,6 +27,16 @@ font-family: sans-serif;
     src: url('/asset/font/mwfmdl2-v3.54.woff');
 }
 
+.mob{
+display: inline;
+}
+.desk{
+display: none;
+}
+
+
+
+
 
 button {
     background-color: transparent;
@@ -37,6 +47,9 @@ button {
 
 /* header */
 
+.header-container{
+   
+}
 
 .top-nav {
     display: flex;
@@ -257,5 +270,19 @@ font-family:"Azure-B" ;
 
 
 @media screen and (min-width:860px) {
-    
+    .mob{
+        display: none;
+    }
+    .desk{
+        display: inline;
+    }
+
+
+    .header-container{
+        
+    }
+
+
+
+
 }
