@@ -26,6 +26,10 @@ font-family: sans-serif;
     font-family: "Azure-MW";
     src: url('/asset/font/mwfmdl2-v3.54.woff');
 }
+@font-face {
+    font-family: "MWF-MDL2";
+    src: url(./asset/font/MWFFluentIcons.woff2);
+}
 
 .mob{
 display: inline;
@@ -34,7 +38,18 @@ display: inline;
 display: none;
 }
 
+.hamburger span{
+    font-size: 20px;
+    height: 20px;
+    width: 20px;
+    padding-top: 7px;
+    line-height: 15px;
+}
 
+.hamburger span::before{
+    content: "";
+    font-family: "MWF-MDL2" ;
+}
 
 
 
@@ -48,7 +63,7 @@ button {
 /* header */
 
 .header-container{
-   
+    height: 49px;
 }
 
 .top-nav {
