@@ -109,12 +109,21 @@ height: 50px;
     height: 33px;
     border-bottom: 1px solid var(--border-fill);
 
+
 }
 .bottom-nav button{
     font-weight: 600;
     font-size: 15px;
+    /* height: 100%; */
+    letter-spacing: normal;
+padding-top: 4px;
+margin: 0 1px;
+font-family:"Azure-B" ;
 }
-
+.downarrow {
+    height: 12px;
+    padding-left: 7px;
+}
 
 
 
@@ -140,9 +149,7 @@ height: 50px;
 
 
 
-.downarrow {
-    height: 12px;
-}
+
 
 
 
