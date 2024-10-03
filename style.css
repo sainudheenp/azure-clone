@@ -6,6 +6,14 @@
 font-family: sans-serif;
 }
 
+
+:root{
+    --border-fill:#e6e6e6 ;
+}
+
+
+
+
 @font-face {
     font-family: "Azure-N";
     src: url(/asset/font/normal.woff2);
@@ -19,9 +27,6 @@ font-family: sans-serif;
     src: url('/asset/font/mwfmdl2-v3.54.woff');
 }
 
-:root {
-    --border-white: #e6e6e6;
-}
 
 button {
     background-color: transparent;
@@ -35,20 +40,22 @@ button {
 
 .top-nav {
     display: flex;
-    height: 53px;
-    align-items: center;
-    justify-content: center;
-    border-bottom: 1px solid var(--border-white);
-    padding: 0 5px;
+    height: 49px;
+    /* align-items: center;
+    justify-content: center; */
+    border-bottom: 1px solid var(--border-fill);
+    padding: 2px 5px;
     margin: 0;
+    position: relative;
 }
 
 
 .ham-search {
     display: flex;
     position: absolute;
+    align-items: center;
     left: 0;
-
+height: 50px;
 }
 
 
@@ -81,10 +88,18 @@ button {
     height: 20px;
 }
 
+.logo{
+    position: absolute;
+    left: calc(50% - 60px);
 
+
+}
 .microsoft {
+    margin: 1px;
     /* padding: 12px 4px; */
-    padding-top: 6px;
+    padding: 9px 4px;
+
+    
 }
 
 .bottom-nav {
@@ -92,7 +107,12 @@ button {
     display: flex;
     align-items: center;
     height: 33px;
+    border-bottom: 1px solid var(--border-fill);
 
+}
+.bottom-nav button{
+    font-weight: 600;
+    font-size: 15px;
 }
 
 
@@ -118,9 +138,7 @@ button {
 
 } */
 
-.bottom-nav {
-    height: 34px;
-}
+
 
 .downarrow {
     height: 12px;
@@ -228,8 +246,6 @@ button {
 
 
 
-@media screen and (min-width:900px) {
-    body {
-        display: none;
-    }
+@media screen and (min-width:860px) {
+    
 }
