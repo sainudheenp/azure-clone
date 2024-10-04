@@ -16,6 +16,7 @@ body{
 
 :root {
     --border-fill: #e6e6e6;
+    --featured-fil:#17253d;
 }
 
 
@@ -359,8 +360,33 @@ button {
 }
 
 
+.inner{
+    padding-top: 3.5rem;
 
+}
+.featured-news{
+    background-image: url(./asset/img/mob/Mobile-feature-BG-2x-1.avif);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.featured-content{
+    padding-right: .25rem;
+    padding-left: .25rem;
+    color: var(--featured-fil);
+}
 
+.content-head-s{
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1rem;
+    letter-spacing: .08em;
+}
+.content-head-l{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2rem;
+    letter-spacing: -.05em;
+}
 
 
 
