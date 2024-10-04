@@ -3,7 +3,6 @@
     margin: 0;
     border: none;
     /* font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif; */
-    font-family: sans-serif;
 }
 body{
     font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -391,14 +390,18 @@ button {
 .card-container{
     margin-top: 2rem;
     padding: 0 .25rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
 }
 /* flex grow?????????? */
 .card{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-color: #fefefe;
     box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),0 0.125rem 0.25rem rgba(0, 0, 0, 0.14);
-
+border-radius: 1rem;
 }
 .card-img{
  /* padding: .5rem .5rem 0 .5rem; */
@@ -406,6 +409,7 @@ button {
 
  padding-inline-end: .5rem;
  padding-top: .5rem;
+
 }
 
  .card-img img{
@@ -414,12 +418,63 @@ button {
         width: 100%;
         aspect-ratio: 2.3333;
         object-fit: cover;
-   
+        border-radius: 0.5rem;
 } 
 
 .card-cont-p{
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    /* gap: 0.75re  m; */
 }
+
+.card-main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+
+.card-main-content-headers{
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    letter-spacing: -.03em;
+    font-family: Azure-B;
+}
+
+.p-coontent{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: -.03em;
+    font-family: Azure-N;
+}
+
+
+
+
+.block-slim{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+
+.right-arrow{
+    padding: 20px;
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
