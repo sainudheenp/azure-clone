@@ -202,9 +202,7 @@ button {
 
 
 
-.card-img img {
-    width: 100%;
-}
+
 
 
 /* section 1  master*/
@@ -380,13 +378,51 @@ button {
     font-weight: 600;
     line-height: 1rem;
     letter-spacing: .08em;
+    font-family: Azure-B;
 }
 .content-head-l{
     font-size: 1.5rem;
     font-weight: 600;
     line-height: 2rem;
     letter-spacing: -.05em;
+    font-family: Azure-B;
 }
+
+.card-container{
+    margin-top: 2rem;
+    padding: 0 .25rem;
+}
+/* flex grow?????????? */
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #fefefe;
+    box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),0 0.125rem 0.25rem rgba(0, 0, 0, 0.14);
+
+}
+.card-img{
+ /* padding: .5rem .5rem 0 .5rem; */
+ padding-inline-start: .5rem;
+
+ padding-inline-end: .5rem;
+ padding-top: .5rem;
+}
+
+ .card-img img{
+   
+   
+        width: 100%;
+        aspect-ratio: 2.3333;
+        object-fit: cover;
+   
+} 
+
+.card-cont-p{
+    padding: 1rem;
+}
+
+
+
 
 
 
