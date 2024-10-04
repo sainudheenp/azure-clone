@@ -186,12 +186,15 @@ button {
     font-family: "Azure-B";
 }
 
-.downarrow {
-    height: 12px;
-    padding-left: 12px;
-    padding-top: 5px;
+.Azure-downArrow {
+    font-size: 12px;
+    font-weight: 700;
+     padding-left: 7px;
 }
-
+.Azure-downArrow::before{
+    content: "";
+    font-family: Azure-MW;
+}
 
 
 
