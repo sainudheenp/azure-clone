@@ -380,16 +380,24 @@ button {
 }
 
 
-.inner{
-    padding-top: 3.5rem;
 
-}
 .featured-news{
     background-image: url(./asset/img/mob/Mobile-feature-BG-2x-1.avif);
-    padding-left: 1rem;
-    padding-right: 1rem;
+
+   
 }
-.featured-content{
+.inner{
+    padding-top: 3.5rem;
+padding-bottom: 3.5rem;
+    padding-left: 1rem;
+   padding-right: 1rem;
+}
+/* .featured-content{
+    padding-right: .25rem;
+    padding-left: .25rem;
+    color: var(--featured-fil);
+} */
+ .top-header-content{
     padding-right: .25rem;
     padding-left: .25rem;
     color: var(--featured-fil);
@@ -401,6 +409,7 @@ button {
     line-height: 1rem;
     letter-spacing: .08em;
     font-family: Azure-B;
+    margin-bottom: 0.75rem;
 }
 .content-head-l{
     font-size: 1.5rem;
@@ -507,9 +516,15 @@ border-radius: 1rem;
 }
 
 
+/* solutions */
 
+.solutions-div{
 
+}
 
+.swp-content{
+    margin-top: 1.5rem;
+}
 
 
 
