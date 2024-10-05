@@ -340,7 +340,7 @@ button {
 
 /* Feature Section */
 
-.featured {}
+/* .featured {} */
 
 .featured-head {
     margin: 0.25rem;
@@ -539,9 +539,19 @@ button {
 
 /* solutions */
 
+
+
 .solutions {
     background-color: #f4fafd;
 }
+
+
+.swp-content-viewAll{
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem ;
+}
+
 
 .swp-content {
     margin-top: 1.5rem;
@@ -590,7 +600,7 @@ button {
 }
 
 .js-li {
-    min-width: max-content;
+
 
 }
 
@@ -611,15 +621,27 @@ button {
 
 
 
-.js-li-button h3{
+.js-li-button h3    {
     font-weight: 600;
-    font-size: 1.125.rem;
+    font-size: 1.125rem;
     line-height: 1.5rem;
     letter-spacing: -.03em;
-    font-family: Azure-B;
+    font-family: Azure-N;
 
 }
 
+.viewAll{
+    display: flex;
+    align-items: center;
+    font-family: Azure-N;
+    font-weight: 600;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    gap: 0.5rem;
+}
+
+
+/* Products services */
 
 
 
