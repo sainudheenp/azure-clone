@@ -4,8 +4,9 @@
     border: none;
     /* font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif; */
 }
-body{
-    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+body {
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1rem;
     font-weight: 400;
     letter-spacing: -.03em;
@@ -15,8 +16,8 @@ body{
 
 :root {
     --border-fill: #e6e6e6;
-    --featured-fil:#17253d;
-    --solution-button:#005597;
+    --featured-fil: #17253d;
+    --solution-button:rgba(0, 85, 151, 0.1);
 }
 
 
@@ -104,6 +105,7 @@ button {
     height: 20px;
     margin-top: 7px;
 }
+
 .hamburger span {
     font-size: 20px;
     height: 13px;
@@ -131,7 +133,7 @@ button {
     width: 20px;
     height: 20px;
 } */
-.search span{
+.search span {
     font-size: 16px;
     height: 13px;
     width: 20px;
@@ -141,7 +143,7 @@ button {
     white-space-collapse: collapse;
 }
 
-.search span::after{
+.search span::after {
     content: "";
     font-family: "Azure-MW";
 
@@ -190,9 +192,10 @@ button {
 .Azure-downArrow {
     font-size: 12px;
     font-weight: 700;
-     padding-left: 7px;
+    padding-left: 7px;
 }
-.Azure-downArrow::before{
+
+.Azure-downArrow::before {
     content: "";
     font-family: Azure-MW;
 }
@@ -267,7 +270,7 @@ button {
 
 .container-p {
     padding: 0 16px;
-    box-shadow:rgba(0, 0, 0, 0.12) 0px 0px 2px 0px, rgba(0, 0, 0, 0.14) 0px 2px 4px 0px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px, rgba(0, 0, 0, 0.14) 0px 2px 4px 0px;
 
 
 
@@ -287,14 +290,16 @@ button {
     font-size: .75rem;
     letter-spacing: 0.08em;
     color: #17253d;
-    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-family: Azure-B;
 }
 
 .trust h1 {
     font-weight: 600;
     font-size: 2rem;
     line-height: 2.5rem;
-    letter-spacing: -.05em
+    letter-spacing: -.05em;
+    font-family: Azure-B;
 }
 
 .container-para {
@@ -357,22 +362,24 @@ button {
 
 }
 
-.head-cont{
+.head-cont {
     flex-grow: 1;
     row-gap: 0.25rem;
 }
-.down{
+
+.down {
     align-self: self-end;
     font-size: 1rem;
 }
-.down::before{
+
+.down::before {
     content: "";
-    font-family:"MWF-FLUENT-ICONS" ;
+    font-family: "Azure-I";
 
 }
 
 
-.indicator{
+.indicator {
     height: 0.25rem;
     width: 100%;
     padding: unset;
@@ -382,29 +389,31 @@ button {
 
 
 
-.featured-news{
+.featured-news {
     background-image: url(./asset/img/mob/Mobile-feature-BG-2x-1.avif);
 
-   
+
 }
-.inner{
+
+.inner {
     padding-top: 3.5rem;
-padding-bottom: 3.5rem;
+    padding-bottom: 3.5rem;
     padding-left: 1rem;
-   padding-right: 1rem;
+    padding-right: 1rem;
 }
+
 /* .featured-content{
     padding-right: .25rem;
     padding-left: .25rem;
     color: var(--featured-fil);
 } */
- .top-header-content{
+.top-header-content {
     padding-right: .25rem;
     padding-left: .25rem;
     color: var(--featured-fil);
 }
 
-.content-head-s{
+.content-head-s {
     font-size: 0.75rem;
     font-weight: 600;
     line-height: 1rem;
@@ -412,7 +421,8 @@ padding-bottom: 3.5rem;
     font-family: Azure-B;
     margin-bottom: 0.75rem;
 }
-.content-head-l{
+
+.content-head-l {
     font-size: 1.5rem;
     font-weight: 600;
     line-height: 2rem;
@@ -420,55 +430,57 @@ padding-bottom: 3.5rem;
     font-family: Azure-B;
 }
 
-.card-container{
+.card-container {
     margin-top: 2rem;
     padding: 0 .25rem;
     display: flex;
     flex-direction: column;
     row-gap: .5rem;
 }
+
 /* flex grow?????????? */
-.card{
+.card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-color: #fefefe;
-    box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),0 0.125rem 0.25rem rgba(0, 0, 0, 0.14);
-border-radius: 1rem;
-}
-.card-img{
- /* padding: .5rem .5rem 0 .5rem; */
- padding-inline-start: .5rem;
-
- padding-inline-end: .5rem;
- padding-top: .5rem;
-
+    box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12), 0 0.125rem 0.25rem rgba(0, 0, 0, 0.14);
+    border-radius: 1rem;
 }
 
- .card-img img{
+.card-img {
+    /* padding: .5rem .5rem 0 .5rem; */
+    padding-inline-start: .5rem;
 
+    padding-inline-end: .5rem;
+    padding-top: .5rem;
 
-        width: 100%;
-        aspect-ratio: 2.3333;
-        object-fit: cover;
-        border-radius: 0.5rem;
 }
 
-.card-cont-p{
+.card-img img {
+
+
+    width: 100%;
+    aspect-ratio: 2.3333;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.card-cont-p {
     padding: 1rem;
     display: flex;
     flex-direction: column;
     /* gap: 0.75re  m; */
 }
 
-.card-main-content{
+.card-main-content {
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
 }
 
 
-.card-main-content-headers{
+.card-main-content-headers {
     font-size: 1.125rem;
     font-weight: 600;
     line-height: 1.5rem;
@@ -476,7 +488,7 @@ border-radius: 1rem;
     font-family: Azure-B;
 }
 
-.p-coontent{
+.p-coontent {
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.5rem;
@@ -487,7 +499,7 @@ border-radius: 1rem;
 
 
 
-.block-slim{
+.block-slim {
     display: flex;
     flex-direction: row;
     margin-top: 2rem;
@@ -496,19 +508,21 @@ border-radius: 1rem;
 }
 
 
-.right-arrow{
+.right-arrow {
     background-color: rgb(0, 120, 212);
     padding: .5rem;
     border-radius: .5rem;
     font-size: 15px;
 }
-.right-arrow::after{
+
+.right-arrow::after {
     content: "";
     font-family: Azure-I;
     color: #fff;
 
 }
-.block-slim .cont{
+
+.block-slim .cont {
     color: #004275;
     font-weight: 600;
     font-size: .875rem;
@@ -517,23 +531,30 @@ border-radius: 1rem;
 }
 
 
+
+
+
+
+
+
 /* solutions */
 
-.solutions{
-background-color: #f4fafd;
+.solutions {
+    background-color: #f4fafd;
 }
 
-.swp-content{
+.swp-content {
     margin-top: 1.5rem;
 }
 
-.swp{
+.swp {
     /* width: 696px; */
     display: flex;
-    overflow:scroll;
+    overflow: scroll;
     scrollbar-width: none;
 }
-.swp button{
+
+.swp button {
     background-color: var(--solution-button);
     margin-right: 0.5rem;
     border-radius: 12.5rem;
@@ -541,16 +562,73 @@ background-color: #f4fafd;
     line-height: 24px;
     padding: .5rem 1rem;
     min-width: max-content;
+    color: black;
 
 }
-.swp span{
+.swp button:nth-child(1){
+    background-color:  #005597;
+    color: #FFF;
+
+
+}
+.swp span {
     font-weight: 600;
     font-size: .9375rem;
-    line-height:1.375rem ;
+    line-height: 1.375rem;
     letter-spacing: -.02em;
     text-align: center;
-    color: #FFF;
 }
+
+/* js */
+.js {
+
+    margin-top: 1.5rem;
+}
+
+.js-ul {
+    list-style: none;
+}
+
+.js-li {
+    min-width: max-content;
+
+}
+
+.js-li-button {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    gap: .5rem;
+    padding: 1.5rem .25rem;
+    align-items: center;
+    border-bottom: 1px solid #bdc5d2;
+}
+.js-li-button1{
+    padding-top: 0;
+}
+
+
+
+
+.js-li-button h3{
+    font-weight: 600;
+    font-size: 1.125.rem;
+    line-height: 1.5rem;
+    letter-spacing: -.03em;
+    font-family: Azure-B;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
