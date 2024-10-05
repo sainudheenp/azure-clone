@@ -16,6 +16,7 @@ body{
 :root {
     --border-fill: #e6e6e6;
     --featured-fil:#17253d;
+    --solution-button:#005597;
 }
 
 
@@ -518,15 +519,38 @@ border-radius: 1rem;
 
 /* solutions */
 
-.solutions-div{
-
+.solutions{
+background-color: #f4fafd;
 }
 
 .swp-content{
     margin-top: 1.5rem;
 }
 
+.swp{
+    /* width: 696px; */
+    display: flex;
+    overflow:scroll;
+    scrollbar-width: none;
+}
+.swp button{
+    background-color: var(--solution-button);
+    margin-right: 0.5rem;
+    border-radius: 12.5rem;
+    /* font-size: 16px; */
+    line-height: 24px;
+    padding: .5rem 1rem;
+    min-width: max-content;
 
+}
+.swp span{
+    font-weight: 600;
+    font-size: .9375rem;
+    line-height:1.375rem ;
+    letter-spacing: -.02em;
+    text-align: center;
+    color: #FFF;
+}
 
 
 
