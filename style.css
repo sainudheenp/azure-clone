@@ -645,6 +645,7 @@ button {
 /* Products services */
 .Products-Services{
     background-image: url(/asset/img/mob/Mobile-product-BG-2x.avif);
+    background-size: cover;
 }
 
 
