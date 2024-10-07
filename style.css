@@ -10,6 +10,7 @@ body {
     font-size: 1rem;
     font-weight: 400;
     letter-spacing: -.03em;
+    line-height: 1.5rem;
 }
 
 
@@ -642,20 +643,33 @@ button {
 
 
 /* Products services */
-
+.Products-Services{
+    background-image: url(/asset/img/mob/Mobile-product-BG-2x.avif);
+}
 
 
 .Pa-cards{
     margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: .75rem;
 }
 
 
 .cards-promo-p{
     padding: 0 .25rem;
+    
+    
 }
 .cards-promo{
     padding: 1rem;
     display: grid;
+    background-image: url(./asset/img/mob/351994-Desktop-CardGrid-ProductandServices-PromoCard-320x592.webp);
+    aspect-ratio: 21/9;
+    border-radius: 1rem;
+    object-fit: cover;
+    color: #fff;
+
 }
 .card-safe-area{
     height: 220px;
@@ -663,10 +677,83 @@ button {
 .card-content-area{
     display: flex;
     flex-direction: column;
+    gap: 0.75rem;
+
+}
+.card-content-area h3{
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: -.05em;
+}
+.promo-p-cnt-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+.promo-p-btn{
+    padding:0.75rem;
+    text-align:center;
+    background-color: #b3daf0;
+    color: black;
+    font-size: .9375rem;
+    border-radius: .5rem;
+    font-weight: 600     ;
+    font-size: .9375rem;
+    font-family: Azure-B;
 }
 
 
 
+.cards-a6{
+
+}
+
+
+.card-a6-item{
+    padding: 1rem;
+    background-color: #fefefe;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    border-radius: 1rem;
+
+}
+.card-a6-badge{
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.0625rem solid #000000;
+    border-radius: 0.5rem;
+}
+
+.card-a6-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+.a6-cont-top{
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: -.03em;
+    font-family: Azure-B;
+}
+.a6-cont-middle{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: -.03em;
+    font-family:Azure-N ;
+}
+.a6-cont-bottom a {
+color: #0e1d29;
+font-size: .875rem;
+line-height: 1.25rem;
+font-family: Azure-B;
+}
 
 
 
