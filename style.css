@@ -769,12 +769,17 @@ font-family: Azure-B;
 .gartner-p-div{
     background-image: url(/asset/img/mob/Mobile-Gartner-BG-2x.webp);
     padding: 0 1rem;
+    padding-top: 3rem;
+
 
 }
 .gartner-card{
 border-radius: 1rem;
 box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),0 0.125rem 0.25rem rgba(0, 0, 0, 0.14);
 background-color: #fff;
+margin-top: 2rem;
+
+
 }
 
 .gartner-card-image{
@@ -789,9 +794,27 @@ background-color: #fff;
    border-radius: 1rem;
 
 }
+.gartner-card-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 1rem;
+}
 
-
-
+.gartner-bottom{
+    background-color: #0078d4;
+    text-align: center;
+    padding: 0.75rem;
+    text-align: center;
+   
+    color: black;
+    font-size: .9375rem;
+    border-radius: .5rem;
+    font-weight: 600;
+    font-size: .9375rem;
+    font-family: Azure-B;
+}
 
 
 
