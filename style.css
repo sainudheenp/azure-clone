@@ -557,6 +557,11 @@ button {
 .swp-content {
     margin-top: 1.5rem;
 }
+.swp-cont-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
 
 .swp {
     /* width: 696px; */
@@ -758,6 +763,41 @@ font-size: .875rem;
 line-height: 1.25rem;
 font-family: Azure-B;
 }
+
+/* Gartner */
+
+.gartner-p-div{
+    background-image: url(/asset/img/mob/Mobile-Gartner-BG-2x.webp);
+    padding: 0 1rem;
+
+}
+.gartner-card{
+border-radius: 1rem;
+box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),0 0.125rem 0.25rem rgba(0, 0, 0, 0.14);
+background-color: #fff;
+}
+
+.gartner-card-image{
+    padding-inline:0.75rem ;
+    padding-block: 0.5rem;
+ aspect-ratio: 1.33333;
+}
+.gartner-card-image img{
+    width: 100%;
+    height: 100%;
+   object-fit: cover;
+   border-radius: 1rem;
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
