@@ -768,8 +768,8 @@ font-family: Azure-B;
 
 .gartner-p-div{
     background-image: url(/asset/img/mob/Mobile-Gartner-BG-2x.webp);
-    padding: 0 1rem;
-    padding-top: 3rem;
+    padding: 1.5rem 1rem;
+    /* padding-top: 3rem; */
 
 
 }
@@ -824,7 +824,18 @@ margin-top: 2rem;
     margin-bottom: 0;
     font-family: Azure-B;
 }
-
+.gartner-top{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+.gartner-top-bottom{
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    letter-spacing: -.03em;
+    font-family: Azure-N;
+}
 
 
 
