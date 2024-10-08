@@ -993,7 +993,8 @@ button {
     background-image: url(/asset/img/mob/361349-desktop-full-screen-banner-azure-regions-bg-1600x372.avif);
     background-size: cover;
     object-fit: cover;
-    
+    background-position: center;
+
 }
 .azure-global-p{
     padding: 3.5rem  1rem;
@@ -1013,10 +1014,23 @@ button {
     font-weight: 400;
     font-size: 1.125rem;
     letter-spacing: -.03em;
-    font-family: Azure-B;
+    font-family: Azure-N;
+    text-align: center;
 }
 
 
+.azure-global-btn{
+    padding: 0.75rem;
+    text-align: center;
+    background-color: #b3daf0;
+    color: black;
+    font-size: .9375rem;
+    border-radius: .5rem;
+    font-weight: 600;
+    font-size: .9375rem;
+    font-family: Azure-B;
+    margin-top: 1.5rem;
+}
 
 
 
