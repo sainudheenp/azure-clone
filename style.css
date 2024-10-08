@@ -281,7 +281,7 @@ button {
 }
 
 .container {
-    margin-top: 2rem;
+    padding-top: 2rem;
     padding-bottom: 56px;
 }
 
@@ -855,61 +855,163 @@ button {
 
 /* res */
 .res-p {
+    background-image: url(/asset/img/mob/Mobile-Interactive-Demo-BG-2x.webp);
     padding-right: 1rem;
     padding-left: 1rem;
-    margin-top: 3rem;
+    padding-top: 3rem;
+    object-fit: cover;
+    background-size: cover;
 }
 
 .res-top-header-s {
     margin-bottom: .75rem;
     color: #17253d;
-    text-align:center;  
+    text-align: center;
 }
-.res-top-header-l{
+
+.res-top-header-l {
     font-weight: 600;
-    font-size:1.75rem;
-    line-height:2.25rem;
-    letter-spacing:-.05em;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    letter-spacing: -.05em;
     font-family: Azure-B;
-    text-align:center;
-    margin-bottom:1.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
 }
 
 
-.res-it-prof{
+.res-it-prof {
     display: flex;
     overflow: auto;
     scrollbar-width: none;
 
-   padding-left: 0.5rem;
-   margin-bottom: .5rem;
-
-}
-.pro-item{
-padding: .5rem;
-background-color: #fafafA;
-font-size: 1rem;
-font-weight: 600;
-font-family: Azure-B;
-letter-spacing: -.03em;
-height: 24px ;
-min-width: max-content;
-box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),0 0.063rem 0.125rem rgba(0, 0, 0, 0.14);
-/* border: 2px solid rgb(214, 214, 214); */
-}
-.res-it-prof .pro-item:nth-child(1){
-border-start-start-radius: 8px;
-border-bottom: 3px solid rgb(2, 2, 48);
-min-width: 150px;
+    padding-left: 0.5rem;
+    margin-bottom: .5rem;
 
 }
 
+.pro-item {
+    padding: .75rem;
+    background-color: #fafafA;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: Azure-B;
+    letter-spacing: -.03em;
+    height: 24px;
+    min-width: max-content;
+    box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12), 0 0.063rem 0.125rem rgba(0, 0, 0, 0.14);
+    /* border: 2px solid rgb(214, 214, 214); */
+    min-width: 180px;
+
+}
+
+.res-it-prof .pro-item:nth-child(1) {
+    border-start-start-radius: 8px;
+    border-bottom: 3px solid rgb(2, 2, 48);
+
+}
 
 
+.res-left-right {
+    margin-top: 24px;
+    padding-bottom: 40px;
+    display: flex;
+    color: #02243e;
+}
+
+.right-left-right .blt {}
+
+.res-left-right .left::after {
+    content: "";
+    font-family: Azure-I;
+    /* padding-left: 10px; */
+    border: 2px solid black;
+    border-radius: 30px;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    margin-right: 8px;
+    font-weight: 600;
+    opacity: .6;
+
+}
+
+.res-left-right .right::after {
+    content: "";
+    font-family: Azure-I;
+    /* padding-left: 10px; */
+    border: 2px solid black;
+    border-radius: 30px;
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    font-weight: 600;
+
+}
+
+/* obi */
+.obi{
+    padding-bottom: 3rem;
+}
 
 
+.ob-image {
+    padding: 1rem;
+    margin-top: 1.5rem;
+
+}
+
+.ob-image img {
+    width: 100%;
+    border-radius: .5rem;
+    /* aspect-ratio: 1.177778; */
+}
+
+.optimize {
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: Azure-B;
+    letter-spacing: -.05em;
+    line-height: 1.75rem;
+    text-align: center;
+}
+
+.ob-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+.ob{
+    gap: .5rem;
+}
 
 
+/* azure global */
+
+.AzuOLhl/eow ujte\ry,RHre-global{
+    background-image: url(/asset/img/mob/361349-desktop-full-screen-banner-azure-regions-bg-1600x372.avif);
+}
+.azure-global-p{
+    padding: 3.5rem  1rem;
+    color: #fff;
+}
+.azure-global-h2{
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    letter-spacing:-0.05em ;
+    font-family: Azure-B;
+    text-align: center;
+}
+.azure-global-text{
+    margin-top: 1rem;
+    padding-inline: 1rem;
+    font-weight: 400;
+    font-size: 1.125rem;
+    letter-spacing: -.03em;
+    font-family: Azure-B;
+}
 
 
 
