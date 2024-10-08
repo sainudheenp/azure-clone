@@ -991,6 +991,9 @@ button {
 
 .Azure-global{
     background-image: url(/asset/img/mob/361349-desktop-full-screen-banner-azure-regions-bg-1600x372.avif);
+    background-size: cover;
+    object-fit: cover;
+    
 }
 .azure-global-p{
     padding: 3.5rem  1rem;
