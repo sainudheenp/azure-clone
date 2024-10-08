@@ -875,14 +875,34 @@ button {
     margin-bottom:1.5rem;
 }
 
+
 .res-it-prof{
     display: flex;
+    overflow: auto;
+    scrollbar-width: none;
+
+   padding-left: 0.5rem;
+   margin-bottom: .5rem;
 
 }
+.pro-item{
+padding: .5rem;
+background-color: #fafafA;
+font-size: 1rem;
+font-weight: 600;
+font-family: Azure-B;
+letter-spacing: -.03em;
+height: 24px ;
+min-width: max-content;
+box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),0 0.063rem 0.125rem rgba(0, 0, 0, 0.14);
+/* border: 2px solid rgb(214, 214, 214); */
+}
+.res-it-prof .pro-item:nth-child(1){
+border-start-start-radius: 8px;
+border-bottom: 3px solid rgb(2, 2, 48);
+min-width: 150px;
 
-
-
-
+}
 
 
 
