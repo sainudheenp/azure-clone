@@ -1032,8 +1032,17 @@ button {
     margin-top: 1.5rem;
 }
 
+/* custom */
 
+.custom-seex{
+    background-image:url(/asset/img/mob/Desktop-CustomerStories-BG@4x-1.jpeg) ;
 
+}
+
+.custom-see{
+    margin: 3rem 0;
+    padding-inline: 1rem; 
+}
 
 
 
