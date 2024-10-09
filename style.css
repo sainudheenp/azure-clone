@@ -899,8 +899,10 @@ button {
     letter-spacing: -.03em;
     height: 24px;
     min-width: max-content;
-    box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12), 0 0.063rem 0.125rem rgba(0, 0, 0, 0.14);
+    /* box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12), 0 0.063rem 0.125rem rgba(0, 0, 0, 0.14); */
     /* border: 2px solid rgb(214, 214, 214); */
+    box-shadow: inset 1px 2px 0.125rem rgba(0, 0, 0, 0.12), 0 0.063rem 0.125rem rgba(0, 0, 0, 0.14);
+    ;
     min-width: 180px;
 
 }
@@ -1053,13 +1055,22 @@ button {
 
 
 
-.cnt-swp-arrow-btn {
+/* .cnt-swp-arrow-btn  {
+    border-radius: 1rem;
+    box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12), 0 0.125rem 0.25rem rgba(0, 0, 0, 0.14);
+    background-color: #fff;
+    margin-top: 2rem;
+
+} */
+
+.swp-body  {
     border-radius: 1rem;
     box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12), 0 0.125rem 0.25rem rgba(0, 0, 0, 0.14);
     background-color: #fff;
     margin-top: 2rem;
 
 }
+
 
 
 .swp-body-img img {
@@ -1109,6 +1120,14 @@ button {
     font-family: Azure-B;
 }
 
+.swp-body-cont-bottom-top{
+
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+
+
 .cont-bottom-span-p {
     font-weight: 600;
     font-size: 1rem;
@@ -1116,10 +1135,19 @@ button {
     letter-spacing: -.03em;
     margin-bottom: 0;
     font-family: Azure-B;
+ 
+}
+
+.cont-bottom-div-p{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
 }
 
 
-.cont-bottom-divs-p {
+
+.cont-bottom-divs {
     display: flex;
     flex-direction: column;
     gap: .5rem;
@@ -1132,6 +1160,7 @@ button {
     display: flex;
     gap: .75rem;
     flex-wrap: wrap;
+    align-items: self-start;
     /* --block-items-list-flex-basis: auto; */
 }
 
@@ -1139,6 +1168,10 @@ button {
     display: flex;
     gap: .75rem;
     min-width: max-content;
+    align-items: self-start;
+    height: 25px;
+
+
 
 }
 
@@ -1151,6 +1184,8 @@ button {
     font-size: .875rem;
     font-weight: 600;
     line-height: 1.25rem;
+    color: rgb(57, 57, 190);
+
 
 }
 
@@ -1161,6 +1196,7 @@ button {
     gap: .75rem;
     min-width: max-content;
     flex-wrap: wrap;
+    height: 25px;
 
 
 }
