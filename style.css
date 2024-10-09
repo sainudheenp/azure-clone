@@ -950,7 +950,7 @@ button {
 }
 
 /* obi */
-.obi{
+.obi {
     padding-bottom: 3rem;
 }
 
@@ -982,33 +982,37 @@ button {
     justify-content: center;
     gap: .5rem;
 }
-.ob{
+
+.ob {
     gap: .5rem;
 }
 
 
 /* azure global */
 
-.Azure-global{
+.Azure-global {
     background-image: url(/asset/img/mob/361349-desktop-full-screen-banner-azure-regions-bg-1600x372.avif);
     background-size: cover;
     object-fit: cover;
     background-position: center;
 
 }
-.azure-global-p{
-    padding: 3.5rem  1rem;
+
+.azure-global-p {
+    padding: 3.5rem 1rem;
     color: #fff;
 }
-.azure-global-h2{
+
+.azure-global-h2 {
     font-weight: 600;
     font-size: 2rem;
     line-height: 2.5rem;
-    letter-spacing:-0.05em ;
+    letter-spacing: -0.05em;
     font-family: Azure-B;
     text-align: center;
 }
-.azure-global-text{
+
+.azure-global-text {
     margin-top: 1rem;
     padding-inline: 1rem;
     font-weight: 400;
@@ -1019,7 +1023,7 @@ button {
 }
 
 
-.azure-global-btn{
+.azure-global-btn {
     padding: 0.75rem;
     text-align: center;
     background-color: #b3daf0;
@@ -1034,22 +1038,73 @@ button {
 
 /* custom */
 
-.custom-seex{
-    background-image:url(/asset/img/mob/Desktop-CustomerStories-BG@4x-1.jpeg) ;
+.custom-see-p {
+    background-image: url(/asset/img/mob/Desktop-CustomerStories-BG@4x-1.jpeg);
 
 }
 
-.custom-see{
+.custom-see {
     margin: 3rem 0;
-    padding-inline: 1rem; 
+    padding-inline: 1rem;
+}
+
+
+/* swp */
+
+
+
+.cnt-swp-arrow-btn {
+    border-radius: 1rem;
+    box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12), 0 0.125rem 0.25rem rgba(0, 0, 0, 0.14);
+    background-color: #fff;
+    margin-top: 2rem;
+
+}
+
+
+.swp-body-img img {
+    width: 100%;
+    border-radius: .5rem;
+
+}
+
+.swp-body-img {
+    padding-inline: 0.75rem;
+    padding-block: 0.5rem;
+    aspect-ratio: 1.33333;
+}
+
+.swp-body-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 1rem;
 }
 
 
 
+.swp-body-cont-top-img{
+    height: 74px;
+    width: 174px;
+}
+.swp-body-cont-top-img img{
+    border: 1px solid rgb(40, 40, 40);
+    border-radius: .5rem;
+}
 
+.swp-body-cont-top{
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
 
-
-
+.swp-body-cont{
+    font-weight: 600;
+    font-size: var(--root-h4-font-size, 1.25rem)1.: var(--root-h4-line-height, 1.75rem);
+    letter-spacing: var(--root-h4-letter-spacing, -.05em);
+    margin-bottom: 0;
+}
 
 
 
