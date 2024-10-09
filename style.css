@@ -1210,6 +1210,68 @@ button {
 
 
 
+/* next step */
+
+
+.next-step-p{
+    background-image:url(/asset/img/mob/361349-mobile-3-up-card-next-step-bg-360x764.avif);
+    padding: 3.5rem 1rem;
+    background-position: center;
+    object-fit: cover;
+}
+
+
+
+/* util */
+
+.util{
+    padding:1.5rem 1rem ;
+}
+.util-p{
+    padding: .5rem .75rem;
+}
+
+.azicon-txt{
+    display: flex;
+    align-content: center;
+    background-color: #e6e6e6 ;
+    height: 53px;
+}
+.azicon-txt img{
+    height: 24px;
+    width: 24px;
+}
+.azicon-txt span{
+    font-weight: 600;
+    font-size: .9375rem;
+    line-height: -.02em;
+}
+
+
+
+.social-icons{
+    margin-left: .75rem;
+}
+.social-icons-p{
+   margin-top: .5rem; 
+   margin-bottom: .5rem;
+}
+.social-icons-p ul{
+    display: flex;
+
+}
+.social-icons-p ul li{
+    list-style-type: none;
+    margin-right: .5rem;
+}
+.social-icons-p ul li img{
+    height: 24px;
+    width: 24px;
+}
+
+
+
+
 
 
 
