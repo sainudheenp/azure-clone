@@ -1233,7 +1233,6 @@ button {
 
 .azicon-txt{
     display: flex;
-    background-color: #e6e6e6 ;
     flex-wrap: wrap;
 }
 
@@ -1241,7 +1240,9 @@ button {
     display: flex;
     margin: .5rem 0;
     align-content: center;
-    padding: 12px 0;
+    padding: 12px ;
+    background-color: #e6e6e6 ;
+
 
 }
 .azicon-txt img{
@@ -1276,7 +1277,9 @@ button {
     width: 24px;
 }
 
-
+.area-div{
+    height: 24px;
+}
 
 
 
