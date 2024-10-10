@@ -6,11 +6,10 @@
 }
 
 body {
-    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 1rem;
+    /* font-size: 1rem;
     font-weight: 400;
     letter-spacing: -.03em;
-    line-height: 1.5rem;
+    line-height: 1.5rem; */
 }
 
 
@@ -274,7 +273,7 @@ button {
     box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px, rgba(0, 0, 0, 0.14) 0px 2px 4px 0px;
 
 
-
+background-color: rgb(0, 41, 72);
 
 
 
@@ -290,7 +289,7 @@ button {
     font-weight: 600;
     font-size: .75rem;
     letter-spacing: 0.08em;
-    color: #17253d;
+    color: rgb(179, 218, 240);
     /* font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif; */
     font-family: Azure-B;
 }
@@ -301,19 +300,20 @@ button {
     line-height: 2.5rem;
     letter-spacing: -.05em;
     font-family: Azure-B;
+    color: rgb(244, 250, 253);
 }
 
 .container-para {
-    color: #17253d;
+    color: rgb(244, 250, 253);
     /* font-family: Azure-b; */
     /* font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif; */
-    font-family: sans-serif;
+    font-family: Azure-N;
     margin-top: 1rem;
     padding-inline-end: 1rem;
     font-weight: 400;
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-    letter-spacing: -0.03rem;
+    font-size: 18px;
+    line-height:28px;
+    letter-spacing: -0.54px;
     margin-bottom: 1.5rem;
 }
 
@@ -326,12 +326,24 @@ button {
 
 .content-btn a {
     text-decoration: none;
-    padding: 12px;
-    background-color: rgba(0, 120, 212);
-    color: rgba(255, 255, 255);
+    /* padding: 12px; */
+    background-color: rgb(179, 218, 240);
+    color: black;
     border-radius: 8px;
-    text-align: center;
+    /* text-align: center; */
+    font-size: 15px     ;
+    font-family: Azure-B;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 52px;
+    letter-spacing: -.02em;
 }
+.content-btn a span{
+    padding-bottom: 2px;
+}
+
 
 .section-master {
     margin-top: 2rem;
@@ -722,6 +734,8 @@ button {
     display: flex;
     flex-direction: column;
     gap: .75rem;
+    margin-top: 1.5rem;
+    padding: 0 8px;
 
 }
 
@@ -733,6 +747,7 @@ button {
     flex-direction: column;
     gap: 0.75rem;
     border-radius: 1rem;
+
 
 }
 
@@ -749,12 +764,11 @@ button {
 .card-a6-cont {
     display: flex;
     flex-direction: column;
-    gap: 0.75rem;
 }
 
 .a6-cont-top {
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 1.125rem;
     line-height: 1.5rem;
     letter-spacing: -.03em;
     font-family: Azure-B;
@@ -766,6 +780,8 @@ button {
     line-height: 1.5rem;
     letter-spacing: -.03em;
     font-family: Azure-N;
+    margin-top: 0.75rem;
+
 }
 
 .a6-cont-bottom a {
@@ -774,6 +790,12 @@ button {
     line-height: 1.25rem;
     font-family: Azure-B;
 }
+
+
+.cards-btn {
+    margin-top: 2rem;
+}
+
 
 /* Gartner */
 
@@ -1042,11 +1064,11 @@ button {
 
 .custom-see-p {
     background-image: url(/asset/img/mob/Desktop-CustomerStories-BG@4x-1.jpeg);
-
+    padding: 3rem 0;
 }
 
 .custom-see {
-    margin: 3rem 0;
+
     padding-inline: 1rem;
 }
 
@@ -1062,13 +1084,24 @@ button {
     margin-top: 2rem;
 
 } */
+.swp-flex {
+    display: flex;
+    overflow: auto;
+    scrollbar-width: none;
+}
 
-.swp-body  {
+
+
+
+
+.swp-body {
     border-radius: 1rem;
     box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12), 0 0.125rem 0.25rem rgba(0, 0, 0, 0.14);
     background-color: #fff;
     margin-top: 2rem;
-
+    flex-basis: 100%;   
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 
 
@@ -1120,7 +1153,7 @@ button {
     font-family: Azure-B;
 }
 
-.swp-body-cont-bottom-top{
+.swp-body-cont-bottom-top {
 
     display: flex;
     flex-direction: column;
@@ -1135,10 +1168,10 @@ button {
     letter-spacing: -.03em;
     margin-bottom: 0;
     font-family: Azure-B;
- 
+
 }
 
-.cont-bottom-div-p{
+.cont-bottom-div-p {
     display: flex;
     flex-direction: column;
     gap: .5rem;
@@ -1152,7 +1185,7 @@ button {
     flex-direction: column;
     gap: .5rem;
     flex-wrap: wrap;
- 
+
 }
 
 .cont-bottom-divs-item1 ul {
@@ -1212,9 +1245,17 @@ button {
 
 /* next step */
 
+.next-step-h2 {
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -1.4px;
+    font-family: Azure-B;
+    color: #FFF;
+    text-align: center;
+}
 
-.next-step-p{
-    background-image:url(/asset/img/mob/361349-mobile-3-up-card-next-step-bg-360x764.avif);
+.next-step-p {
+    background-image: url(/asset/img/mob/361349-mobile-3-up-card-next-step-bg-360x764.avif);
     padding: 3.5rem 1rem;
     background-position: center;
     object-fit: cover;
@@ -1224,32 +1265,35 @@ button {
 
 /* util */
 
-.util{
-    padding:1.5rem 1rem ;
+.util {
+    padding: 1.5rem 1rem;
 }
-.util-p{
+
+.util-p {
     padding: .5rem .75rem;
 }
 
-.azicon-txt{
+.azicon-txt {
     display: flex;
     flex-wrap: wrap;
 }
 
-.azicon-txt div{
+.azicon-txt div {
     display: flex;
     margin: .5rem 0;
     align-content: center;
-    padding: 12px ;
-    background-color: #e6e6e6 ;
+    padding: 12px;
+    background-color: #e6e6e6;
 
 
 }
-.azicon-txt img{
+
+.azicon-txt img {
     height: 24px;
     width: 24px;
 }
-.azicon-txt span{
+
+.azicon-txt span {
     font-weight: 600;
     font-size: .9375rem;
     line-height: -.02em;
@@ -1257,48 +1301,52 @@ button {
 
 
 
-.social-icons{
+.social-icons {
     margin-left: .75rem;
 }
-.social-icons-p{
-   margin-top: .5rem; 
-   margin-bottom: .5rem;
+
+.social-icons-p {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
 }
-.social-icons-p ul{
+
+.social-icons-p ul {
     display: flex;
 
 }
-.social-icons-p ul li{
+
+.social-icons-p ul li {
     list-style-type: none;
     margin-right: .5rem;
 }
-.social-icons-p ul li img{
+
+.social-icons-p ul li img {
     height: 24px;
     width: 24px;
 }
 
-.area-div{
+.area-div {
     height: 24px;
 }
 
 
 /* footer */
 
-.footer-p{
+.footer-p {
     background-color: #f7f7f7;
 
 }
 
-.footer-p-top{
+.footer-p-top {
     padding: 0 12px;
 
 }
 
-.footer-items{
+.footer-items {
     padding: 0 12px;
 }
 
-.footer-head{
+.footer-head {
     padding: 36px 0 4px;
     font-size: 15px;
     line-height: 20px;
@@ -1308,18 +1356,18 @@ button {
 }
 
 
-.footer-items ul li{
+.footer-items ul li {
     padding: 8px 0;
     list-style: none;
-font-size: 11px;
-line-height: 16px;
-font-weight:400;
-font-family: Azure-N;
-color: #616161;
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: Azure-N;
+    color: #616161;
 
 }
 
-.footer-p-bottom{
+.footer-p-bottom {
     display: felx;
     flex-direction: column;
     flex-wrap: wrap;
@@ -1327,13 +1375,14 @@ color: #616161;
     color: #616161;
 
 }
-.bottom-glob-lang{
+
+.bottom-glob-lang {
 
     font-size: 11px;
 }
 
-.bottom-glob-lang span::before{
-    content:"";
+.bottom-glob-lang span::before {
+    content: "";
     font-family: Azure-MW;
     margin-right: 10px;
     vertical-align: middle;
@@ -1341,7 +1390,7 @@ color: #616161;
 
 }
 
-.bottom-tick-txt{
+.bottom-tick-txt {
 
     font-size: 11px;
     line-height: 16px;
@@ -1354,45 +1403,58 @@ color: #616161;
 
 }
 
-.svg-bottom-div{
+.svg-bottom-div {
     width: 40px;
 
 }
 
 .bottom-tick-txt svg {
     width: 100%;
-padding-right: 8px;
+    padding-right: 8px;
 }
 
-.bottom-consumer-txt{
+.bottom-consumer-txt {
     font-size: 11px;
     font-family: Azure-N;
 }
 
 
 .footer-nav {
- display: block;
- font-size: 15px;   
- font-weight: 400;
-}
-
-.footer-nav ul{
+    display: block;
+    /* font-size: 15px;    */
+    font-weight: 400;
     margin-top: 12px;
     margin-bottom: 3px;
-    float: left;
-    list-style: none;
-}
-.footer-nav ul li {
-    display: inline-block;
-    padding: 6px 10px 0 0;
-   
-}
-.footer-nav ul li a{
+
+
     font-size: 11px;
     line-height: 16px;
     text-decoration: none;
-    color: black;
     font-family: Azure-N;
+}
+
+.footer-nav ul {
+    padding: 0;
+    margin-block-end: 3px;
+    margin-block-start: 12px;
+    margin-bottom: 3px;
+    margin-top: 12px;
+
+    list-style: none;
+}
+
+.footer-nav ul li {
+    display: inline-block;
+    padding: 6px 10px 0 0;
+
+}
+
+.footer-nav ul li a {
+    /* font-size: 11px;
+    line-height: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: Azure-N; */
 }
 
 
