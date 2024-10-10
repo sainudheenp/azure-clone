@@ -1282,6 +1282,125 @@ button {
 }
 
 
+/* footer */
+
+.footer-p{
+    background-color: #f7f7f7;
+
+}
+
+.footer-p-top{
+    padding: 0 12px;
+
+}
+
+.footer-items{
+    padding: 0 12px;
+}
+
+.footer-head{
+    padding: 36px 0 4px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 600;
+    font-family: Azure-B;
+    color: #616161;
+}
+
+
+.footer-items ul li{
+    padding: 8px 0;
+    list-style: none;
+font-size: 11px;
+line-height: 16px;
+font-weight:400;
+font-family: Azure-N;
+color: #616161;
+
+}
+
+.footer-p-bottom{
+    display: felx;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 30px 24px 16px;
+    color: #616161;
+
+}
+.bottom-glob-lang{
+
+    font-size: 11px;
+}
+
+.bottom-glob-lang span::before{
+    content:"";
+    font-family: Azure-MW;
+    margin-right: 10px;
+    vertical-align: middle;
+    font-size: 20px;
+
+}
+
+.bottom-tick-txt{
+
+    font-size: 11px;
+    line-height: 16px;
+    padding-right: 24px;
+    padding-top: 4px;
+    font-family: Azure-N;
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 16px;
+
+}
+
+.svg-bottom-div{
+    width: 40px;
+
+}
+
+.bottom-tick-txt svg {
+    width: 100%;
+padding-right: 8px;
+}
+
+.bottom-consumer-txt{
+    font-size: 11px;
+    font-family: Azure-N;
+}
+
+
+.footer-nav {
+ display: block;
+ font-size: 15px;   
+ font-weight: 400;
+}
+
+.footer-nav ul{
+    margin-top: 12px;
+    margin-bottom: 3px;
+    float: left;
+    list-style: none;
+}
+.footer-nav ul li {
+    display: inline-block;
+    padding: 6px 10px 0 0;
+   
+}
+.footer-nav ul li a{
+    font-size: 11px;
+    line-height: 16px;
+    text-decoration: none;
+    color: black;
+    font-family: Azure-N;
+}
+
+
+
+
+
+
+
 
 
 
