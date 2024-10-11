@@ -448,8 +448,8 @@ border: 1px solid white;
     color: var(--featured-fil);
 } */
 .top-header-content {
-    padding-right: .25rem;
-    padding-left: .25rem;
+        /* padding-right: .25rem;
+        padding-left: .25rem; */
     color: var(--featured-fil);
 }
 
