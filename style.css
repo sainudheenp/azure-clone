@@ -400,6 +400,11 @@ border: 1px solid white;
 .head-cont {
     flex-grow: 1;
     row-gap: 0.25rem;
+    font-family: Azure-B;
+    font-weight:600;
+    font-size: .875rem;
+    line-height:  1.25rem;
+
 }
 
 .down {
