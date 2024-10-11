@@ -93,11 +93,12 @@ button {
 .hamburger {
     display: flex;
     justify-content: center;
-    height: 48px;
+    /* height: 48px; */
+    height: 30px                ;
     width: 48px;
     margin: 1px;
-    padding: 6px 0 8px 0;
-    align-items: center;
+    /* padding: 6px 0 8px 2px; */
+    /* align-items: center; */
 }
 
 .hamburger img {
@@ -122,9 +123,9 @@ button {
 }
 
 .search {
-    display: flex;
-    align-items: center;
-    padding-left: 7PX;
+    /* display: flex;
+    align-items: center; */
+    padding-left: 9PX;
 }
 
 /* .search img {
@@ -192,7 +193,8 @@ button {
 .Azure-downArrow {
     font-size: 12px;
     font-weight: 700;
-    padding-left: 7px;
+    padding-left: 11px;
+    padding-top: 6px;
 }
 
 .Azure-downArrow::before {
@@ -324,7 +326,7 @@ row-gap: .5rem;
     gap: 0.5rem;
 }
 
-.content-btn a {
+.content-btn .cont-btn-a- {
     text-decoration: none;
     /* padding: 12px; */
     background-color: rgb(179, 218, 240);
@@ -340,7 +342,7 @@ row-gap: .5rem;
     height: 52px;
     letter-spacing: -.02em;
 }
-.content-btn a span{
+.content-btn .cont-btn-a- span{
     padding-bottom: 2px;
 }
 
@@ -348,6 +350,26 @@ row-gap: .5rem;
 .section-master {
     margin-top: 2rem;
 }
+
+
+.cont-btn-a--{
+    text-decoration: none;
+    /* padding: 12px; */
+    color: #fff;
+    border-radius: 8px;
+border: 1px solid white;
+    font-size: 15px     ;
+    font-family: Azure-B;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    letter-spacing: -.02em;
+    background-color: transparent;
+}
+
+
 
 
 
@@ -631,6 +653,7 @@ row-gap: .5rem;
     padding: 1.5rem .25rem;
     align-items: center;
     border-bottom: 1px solid #bdc5d2;
+    text-align: left;
 }
 
 .js-li-button1 {
