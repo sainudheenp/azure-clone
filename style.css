@@ -1181,6 +1181,7 @@ button {
     display: flex;
     overflow: auto;
     scrollbar-width: none;
+    gap: 30px;
 }
 
 
@@ -1575,22 +1576,59 @@ button {
         padding-left: 4rem;
     }
 
-    .promo-p-btn     {
+    .promo-p-btn {
         display: block;
         width: 160px;
         background-color: #b3daf0;
 
     }
+
     .swp-content {
         margin-top: 2rem;
     }
-    .cards-a6{
-        margin-top: 0;
+
+    .cards-a6 {
+        margin-top: 1.5rem;
     }
-    .gartner-p-div{
+
+    .gartner-p-div {
         padding: 1.5rem 4rem;
     }
 
+    .res-p {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+    .gartner-bottom{
+        width: 130px;
+    }
+    .azure-global-p{
+        padding: 3.5rem 4rem;
+
+    }
+
+    .azure-global-btn {
+        background-color: unset;
+    }
+    .azure-global-btn span{
+    min-width: max-content;
+    padding: 1.1rem ;
+    border-radius: 14px;
+    background-color: #b3daf0;
+    }
+    .jake_div{
+        margin-top: 1.5rem;
+    }
+    .custom-see {
+
+        padding-inline: 4rem;
+    }
+    .next-step-p{
+        padding: 3.5rem 4rem;
+    }
+    .util{
+        padding: 1.5rem 4rem;
+    }
 
 }
 
