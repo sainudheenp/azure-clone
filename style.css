@@ -737,6 +737,7 @@ button {
     border-radius: 16px;
 }
 
+
 .playbutton {
     position: absolute;
     top: 0;
@@ -747,7 +748,7 @@ button {
 
 /* Products services */
 .Products-Services {
-    background-image: url(/asset/img/mob/Mobile-product-BG-2x.avif);
+    background-image: url(/asset/img/mob/361349-mobile-card-grid-product-and-services-bg-360x2110.avif);
     background-size: cover;
 }
 
@@ -1556,17 +1557,38 @@ button {
 
 
 @media screen and (min-width:548px) {
-    .container-p{
-        padding:0 4rem;
+    .container-p {
+        padding: 0 4rem;
     }
 
-    .content-btn{
+    .content-btn {
         flex-direction: row;
     }
-    
-    .cont-btn-w{
-        padding:0 12px ;
-        
+
+    .cont-btn-w {
+        padding: 0 12px;
+
+    }
+
+    .inner {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
+
+    .promo-p-btn     {
+        display: block;
+        width: 160px;
+        background-color: #b3daf0;
+
+    }
+    .swp-content {
+        margin-top: 2rem;
+    }
+    .cards-a6{
+        margin-top: 0;
+    }
+    .gartner-p-div{
+        padding: 1.5rem 4rem;
     }
 
 
