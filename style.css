@@ -1770,15 +1770,57 @@ button {
 
     }
 
+    /*  */
     .chat_banner_p {
         height: 290px;
+        background-color: #004275;
     }
 
     .chat_banner {
-        padding: 2rem 3.5rem ;
+        padding: 2rem 3.5rem;
+        display: flex;
+
 
     }
 
+    .chat_banner_left {
+        padding-block: 0.75rem;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        font-family: Azure-B;
+
+        font-weight: 600;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        letter-spacing: -.05em;
+        margin-bottom: 0;
+        font-family: Azure-B;
+    }
+
+    .banner_top_cont {
+        display: flex;
+        flex-direction: column;
+        gap: .25rem;
+    }
+
+    .banner_top_cont span {
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        letter-spacing: -.05em;
+        font-family: Azure-B;
+        color: #FFF;
+    }
+
+    .banner_top_cont div {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 2rem;
+        letter-spacing: -.03em;
+        font-family: Azure-N;
+        color: #FFF;
+    }
 
 
 
