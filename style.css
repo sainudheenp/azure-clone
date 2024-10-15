@@ -883,6 +883,7 @@ button {
 .gartner-p-div {
     background-image: url(/asset/img/mob/Mobile-Gartner-BG-2x.webp);
     padding: 1.5rem 1rem;
+    background-size: cover;
     /* padding-top: 3rem; */
 
 
@@ -1970,5 +1971,14 @@ button {
         column-count: 3;
 
     }
+
+/* gartner */
+.gartner-card{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+
 
 }
