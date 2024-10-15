@@ -1757,15 +1757,26 @@ button {
     }
 
 
-    .master-parent{
+    .master-parent {
         position: relative;
-        
+
 
     }
-    .container{
+
+    .container-p {
         position: absolute;
         top: 170px;
-        
+        background: transparent;
+
+    }
+
+    .chat_banner_p {
+        height: 290px;
+    }
+
+    .chat_banner {
+        padding: 2rem 3.5rem ;
+
     }
 
 
