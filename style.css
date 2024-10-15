@@ -1679,10 +1679,12 @@ button {
         height: 54px;
         font-size: 13px;
         display: flex;
+        align-items: center;
     }
 
-    .nav-left-div{
+    .nav-left-div {
         display: flex;
+        align-items: center;
     }
 
 
@@ -1691,7 +1693,8 @@ button {
         padding: 16px 6px 16px 10px;
         margin-top: 1px;
     }
-    .microsoft_desk{
+
+    .microsoft_desk {
         width: 121px;
 
     }
@@ -1718,12 +1721,51 @@ button {
 
     .bar_azure .Azure {
         padding: 16px 6px 16px 10px;
-        margin-left: 18px;
+        margin-left: 8px;
+        font-family: Azure-B;
     }
+
+
+    .nav-middle-div {
+        flex: 1 1 auto;
+        -webkit-box-flex: 1;
+    }
+
 
     .paddle-ul {
         display: flex;
         list-style: none;
+    }
+
+    .paddle-ul li button {
+        padding: 16px 30px 16px 12px;
+        font-size: 13px;
+        font-family: Azure-N;
+
+    }
+
+    .list_down::after {
+        font-family: Azure-mw;
+        content: "";
+        position: absolute;
+        font-size: 8px;
+        display: inline-block;
+        color: currentColor;
+        font-weight: 700;
+        padding-top: 7px;
+        margin-left: 5px;
+    }
+
+
+    .master-parent{
+        position: relative;
+        
+
+    }
+    .container{
+        position: absolute;
+        top: 170px;
+        
     }
 
 
