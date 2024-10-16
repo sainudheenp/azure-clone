@@ -2157,7 +2157,31 @@ button {
     .azure-global-p {
         padding: 6rem 4rem;
     }
+    .jake_div{
+        margin-top: 6rem;
+    }
 
+
+
+    /* swp */
+    .swp-body{
+        display: flex;
+        flex-direction: row-reverse;
+        padding:1.5rem;
+
+    }
+    .swp-body-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .swp-body-cont{
+        flex-basis: 50%;
+    }
+    .swp-body-img {
+        flex-basis: 50%;
+    }
 
 
 
