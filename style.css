@@ -1411,6 +1411,12 @@ button {
     object-fit: cover;
 }
 
+.next_step_cards{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
 
 
 /* util */
@@ -2089,6 +2095,11 @@ button {
         margin-top: 3rem;
     }
 
+    .next_step_cards{
+        display: flex;
+        flex-direction: row;
+        gap: .5rem;
+    }
 
 
 
@@ -2096,17 +2107,6 @@ button {
 
 
 
-
-    /* .card_a6_item_p{
-    flex: 0 0 calc(calc(100% - calc(1rem * (3 - 1))) / 3);
-   }
-   .card-cont-c{
-
-   }
-.card_a6_item{
-    flex: 0 0 calc(calc(100% - calc(1rem * (3 - 1))) / 3);
-
-} */
 
 
 
@@ -2182,6 +2182,47 @@ button {
     .swp-body-img {
         flex-basis: 50%;
     }
+
+
+/* swp bar */
+
+.swp_bar_c ul{
+    display: flex;
+    list-style-type: none;
+    background-color: #FFF;
+    margin-top: 1rem;
+border-radius: 1rem         ;
+margin-bottom: 1rem;
+
+}
+.swp_bar_item_p{
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px;
+
+}
+.swp_bar_item_c{
+    padding:1rem;
+}
+
+.swp_bar_item_c img{
+    aspect-ratio:  2.33333  ;
+    object-fit: fill;
+    width: 100%;
+}
+
+/* featured_desk nav */
+.featured_desk_p{
+    padding: 0 3.5rem;
+
+}
+.featured_desk_c_left{
+    display: flex;
+    flex-grow: 1;
+    line-height: 24px;
+    letter-spacing: -0.48px;
+    font-size: 16px;
+}
+
 
 
 
