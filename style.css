@@ -2186,6 +2186,8 @@ button {
 
 /* swp bar */
 
+
+
 .swp_bar_c ul{
     display: flex;
     list-style-type: none;
@@ -2193,6 +2195,7 @@ button {
     margin-top: 1rem;
 border-radius: 1rem         ;
 margin-bottom: 1rem;
+
 
 }
 .swp_bar_item_p{
@@ -2212,16 +2215,65 @@ margin-bottom: 1rem;
 
 /* featured_desk nav */
 .featured_desk_p{
+   
+}
+
+
+.featured_desk_c{
     padding: 0 3.5rem;
+    display: flex;
+    flex-grow: 1;
 
 }
 .featured_desk_c_left{
     display: flex;
-    flex-grow: 1;
-    line-height: 24px;
     letter-spacing: -0.48px;
     font-size: 16px;
+    width: 500px;
+    flex-grow: 1;
+    flex-basis: 0;
 }
+.featured_desk_c_left ul{
+    display: flex;
+    list-style-type:  none;
+    overflow: auto;
+    scrollbar-width: none;
+}
+.featured_desk_c_left ul li{
+    text-wrap: nowrap;
+    margin-top: 16px;
+    margin-right: 48px;
+white-space:collapse ;
+line-height: 24px;
+min-width: max-content;
+
+
+}
+
+.desk_c_left_cont{
+    padding-bottom: 16px;
+}
+.featured_desk_c_left ul li {
+}
+
+
+.featured_desk_c_right{
+    margin-left: 32px;
+    flex-grow: 1;
+
+}
+
+
+._right_full_button{
+    padding: 1rem;
+        line-height: 24px;
+border-radius: 8px;
+background-color: #066bb8;
+color: white;
+
+}
+
+
 
 
 
