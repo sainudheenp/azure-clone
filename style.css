@@ -1411,7 +1411,7 @@ button {
     object-fit: cover;
 }
 
-.next_step_cards{
+.next_step_cards {
     display: flex;
     flex-direction: column;
     gap: .5rem;
@@ -1841,138 +1841,118 @@ button {
 
     }
 
-    /*  */
+    /* ai */
 
 
-
-
-    .ai-chat-banner {
-        padding: 32px 56px;
-        background-color: #004275;
-    }
-
-    .layout-gpt-cols {
-        display: flex;
-        flex-wrap: wrap;
-        column-gap: 16px;
-        row-gap: 8px;
-    }
-
-    .ai-assistant {
-        display: flex;
-        align-items: center;
-        flex-basis: calc(50% - 8px);
-        flex-grow: 0;
-        flex-shrink: 0;
-    }
-
-    .ai-assistant-flex {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        color: rgb(220, 238, 248);
-        column-gap: 5px;
-        row-gap: 5px;
-        padding: 12px 12px 12px 0px;
-    }
-
-    .assistant-content-head h2 {
-        margin: 0;
-        color: rgb(244, 250, 253);
+    .ai_chat_banner {
+        padding: 32px 0;
+        color: #FFF;
+        background: linear-gradient(131deg, #003259 0%, #091f2c 50.25%, #004275 100%);
         font-family: Azure-B;
     }
 
-    .assistant-badge img {
-        height: 32.875px;
-        max-height: 40px;
-        width: 40px;
-        max-width: 40px;
+    .ai_chat_banner_rp {
+        padding: 0 56px;
     }
 
-    .assistant-content {
+    .ai_chat_div_w {
         display: flex;
-        flex-direction: column;
-        row-gap: 4px;
-        align-items: flex-start;
+        flex-wrap: wrap;
+        row-gap: 8px;
     }
 
-    .assistant-content-para {
-        font-size: 14px;
-        letter-spacing: -0.42px;
-        line-height: 16px;
-    }
-
-    .layout-ai-chat {
+    ._chat_div_left {
         display: flex;
-        flex-direction: column;
-        row-gap: 10px;
-        justify-content: center;
         flex-basis: calc(50% - 8px);
         flex-grow: 0;
         flex-shrink: 0;
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: calc(50%-8px);
     }
 
-    .ai-searchbar {
-        height: 60px;
-        display: flex;
-        align-items: center;
-        box-sizing: border-box;
-        background-color: rgb(254, 254, 254);
-        border-radius: 8px;
-    }
+    ._chat_div_cont_img {
 
-    .ai-searchbar input {
-        width: 100%;
-        padding: 20px 60px 20px 16px;
-        border: 0;
-        border-radius: 8px;
-        font-size: 15px;
-    }
-
-    .linear-border {
-        height: 4px;
-        background: linear-gradient(90deg, rgb(10, 134, 196) 0.3%, rgb(113, 237, 232) 100%);
-        border-bottom-left-radius: 8px;
-        border-bottom-right-radius: 8px;
-    }
-
-    .border-div-plus {
-        border-radius: 8px;
-        border-bottom-right-radius: 5px;
-        border-bottom-left-radius: 5px;
-        background-color: rgb(254, 254, 254);
-        width: 100%;
-    }
-
-    .ai-search-btn {
-        padding: 14px;
-        border: 0;
-        background-color: transparent;
-    }
-
-    .ai-search-btn div {
-        width: 24px;
-        height: 24px;
-    }
-
-    .ai-list-tags {
-        list-style-type: none;
+        padding: 12px;
         display: flex;
         flex-direction: column;
-        row-gap: 16px;
-        flex-wrap: wrap;
+        /* justify-content: space-around; */
+        height: 100%;
     }
 
-    .ai-chat-message {
-        padding: 8px 10px;
-        background-color: transparent;
-        border: 1px solid rgb(141, 200, 232);
-        border-radius: 8px;
-        color: rgb(244, 250, 253);
-        font-size: 13px;
-        font-weight: 400;
-        height: 38px;
+    .cont_h1_p {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
     }
+
+
+
+
+
+    .chat_div_right {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: calc(50% - 8px);
+        justify-content: center;
+        /* padding: ; */
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+    .chat_div_inp {
+        padding: 20px 16px;
+        width: 100%;
+        height: 52px;
+
+    }
+
+    .chat_inp_prompt {
+        display: flex;
+        height: 52px;
+        width: 100%;
+        align-items: center;
+        background-color: #fff;
+
+    }
+
+    .chat_div_right_top {
+        width: 100%;
+    }
+
+    .chat_div_right svg {
+        height: 24px;
+        width: 24px;
+    }
+
+    .chat_div_right_bottom ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 1rem;
+        list-style: none;
+    }
+
+    .chat_div_right_bottom ul li {
+    }
+
+
+    .chat_div_right_bottom button {
+        color: #fff;
+        padding: 8px;
+        border: 2px solid rgb(141, 200, 232);
+        border-radius: 8px;
+
+    }
+
+
+
+
+
+
 
     /* nav right */
 
@@ -2095,7 +2075,7 @@ button {
         margin-top: 3rem;
     }
 
-    .next_step_cards{
+    .next_step_cards {
         display: flex;
         flex-direction: row;
         gap: .5rem;
@@ -2157,121 +2137,127 @@ button {
     .azure-global-p {
         padding: 6rem 4rem;
     }
-    .jake_div{
+
+    .jake_div {
         margin-top: 6rem;
     }
 
 
 
     /* swp */
-    .swp-body{
+    .swp-body {
         display: flex;
         flex-direction: row-reverse;
-        padding:1.5rem;
+        padding: 1.5rem;
 
     }
-    .swp-body-img img{
+
+    .swp-body-img img {
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
 
-    .swp-body-cont{
+    .swp-body-cont {
         flex-basis: 50%;
     }
+
     .swp-body-img {
         flex-basis: 50%;
     }
 
 
-/* swp bar */
+    /* swp bar */
 
 
 
-.swp_bar_c ul{
-    display: flex;
-    list-style-type: none;
-    background-color: #FFF;
-    margin-top: 1rem;
-border-radius: 1rem         ;
-margin-bottom: 1rem;
+    .swp_bar_c ul {
+        display: flex;
+        list-style-type: none;
+        background-color: #FFF;
+        margin-top: 1rem;
+        border-radius: 1rem;
+        margin-bottom: 1rem;
 
 
-}
-.swp_bar_item_p{
-    padding: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px;
+    }
 
-}
-.swp_bar_item_c{
-    padding:1rem;
-}
+    .swp_bar_item_p {
+        padding: 1rem;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px;
 
-.swp_bar_item_c img{
-    aspect-ratio:  2.33333  ;
-    object-fit: fill;
-    width: 100%;
-}
+    }
 
-/* featured_desk nav */
-.featured_desk_p{
-   
-}
+    .swp_bar_item_c {
+        padding: 1rem;
+    }
 
+    .swp_bar_item_c img {
+        aspect-ratio: 2.33333;
+        object-fit: fill;
+        width: 100%;
+    }
 
-.featured_desk_c{
-    padding: 0 3.5rem;
-    display: flex;
-    flex-grow: 1;
-
-}
-.featured_desk_c_left{
-    display: flex;
-    letter-spacing: -0.48px;
-    font-size: 16px;
-    width: 500px;
-    flex-grow: 1;
-    flex-basis: 0;
-}
-.featured_desk_c_left ul{
-    display: flex;
-    list-style-type:  none;
-    overflow: auto;
-    scrollbar-width: none;
-}
-.featured_desk_c_left ul li{
-    text-wrap: nowrap;
-    margin-top: 16px;
-    margin-right: 48px;
-white-space:collapse ;
-line-height: 24px;
-min-width: max-content;
+    /* featured_desk nav */
+    .featured_desk_p {}
 
 
-}
+    .featured_desk_c {
+        padding: 0 3.5rem;
+        display: flex;
+        flex-grow: 1;
 
-.desk_c_left_cont{
-    padding-bottom: 16px;
-}
-.featured_desk_c_left ul li {
-}
+    }
 
+    .featured_desk_c_left {
+        display: flex;
+        letter-spacing: -0.48px;
+        font-size: 16px;
+        width: 500px;
+        flex-grow: 1;
+        flex-basis: 0;
+    }
 
-.featured_desk_c_right{
-    margin-left: 32px;
-    flex-grow: 1;
+    .featured_desk_c_left ul {
+        display: flex;
+        list-style-type: none;
+        overflow: auto;
+        scrollbar-width: none;
+    }
 
-}
-
-
-._right_full_button{
-    padding: 1rem;
+    .featured_desk_c_left ul li {
+        text-wrap: nowrap;
+        margin-top: 16px;
+        margin-right: 48px;
+        white-space: collapse;
         line-height: 24px;
-border-radius: 8px;
-background-color: #066bb8;
-color: white;
+        min-width: max-content;
 
-}
+
+    }
+
+    .desk_c_left_cont {
+        padding-bottom: 16px;
+    }
+
+    .featured_desk_c_left ul li {}
+
+
+    .featured_desk_c_right {
+        margin-left: 32px;
+        flex-grow: 1;
+
+    }
+
+
+    ._right_full_button {
+        padding: 1rem;
+        line-height: 24px;
+        border-radius: 8px;
+        background-color: #066bb8;
+        color: white;
+
+    }
 
 
 
