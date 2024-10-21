@@ -1230,6 +1230,8 @@ button {
 .custom-see-p {
     background-image: url(/asset/img/mob/Desktop-CustomerStories-BG@4x-1.jpeg);
     padding: 3rem 0;
+    background-repeat: no-repeat;
+    background-size: cover  ;
 }
 
 .custom-see {
@@ -1268,6 +1270,9 @@ button {
     flex-basis: 100%;
     flex-grow: 0;
     flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
@@ -1323,6 +1328,13 @@ button {
     display: flex;
     flex-direction: column;
     gap: .75rem;
+}
+.swp-body-cont-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+
 }
 
 
