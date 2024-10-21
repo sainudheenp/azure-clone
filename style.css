@@ -723,7 +723,9 @@ button {
 .view-card-img {
     margin-top: 1.5rem;
     position: relative;
-
+display: flex;
+align-items: center;
+justify-content: center;
 
 }
 
@@ -735,12 +737,8 @@ button {
 
 .playbutton_p {
     position: absolute;
-    top: 0;
-    /* --pos-y:center;
-   --pos-x:center; */
     background-position-y: center;
-
-    padding: 12px;
+  padding: 12px;
     background-color: #004275;
     border-radius: 8px;
 }
@@ -2413,5 +2411,15 @@ button {
 
 
 
+
+}
+
+
+@media screen and (min-width:1083px){
+
+    .footer-p-top{
+    display: flex;
+    padding: 0 5%;
+}
 
 }
