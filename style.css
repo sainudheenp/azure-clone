@@ -2213,6 +2213,11 @@ button {
 /* hide@1084 */
 @media screen and (min-width: 1083px) {
 
+.desk-container{
+    padding: 0 5%;
+}
+
+
     .hide_1084 {
         display: none;
     }
