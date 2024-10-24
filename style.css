@@ -398,7 +398,8 @@ button {
     line-height: 1rem;
     letter-spacing: 0.08em;
     font-family: Azure-B;
-    margin-bottom: 0.75rem;
+    /* margin-bottom: 0.75rem; */
+    margin-bottom: 8px;
 }
 
 .content-head-l {
@@ -480,6 +481,7 @@ button {
     line-height: 1.5rem;
     letter-spacing: -0.03em;
     font-family: Azure-N;
+    /* padding-right: 24px; */
 }
 
 .block-slim {
@@ -1636,7 +1638,7 @@ button {
         height: 24px;
         content: " ";
         margin-left: 7px;
-        font-family: Azure-I;
+        font-family: Azure-N;
     }
 
     .bar_azure .Azure {
@@ -1688,10 +1690,7 @@ button {
     .ai_chat_banner {
         padding: 32px 0;
         color: #fff;
-        background: linear-gradient(131deg,
-                #003259 0%,
-                #091f2c 50.25%,
-                #004275 100%);
+        background-image: linear-gradient(rgb(0, 41, 72) 0%, rgb(0, 66, 117) 98.96%);
         font-family: Azure-B;
     }
 
@@ -1702,31 +1701,56 @@ button {
     .ai_chat_div_w {
         display: flex;
         flex-wrap: wrap;
-        row-gap: 8px;
+        /* row-gap: 8px; */
+        column-gap: 16px;
     }
 
     ._chat_div_left {
         display: flex;
+        flex-direction: column;
+        flex-grow: 0;
+        flex-shrink: 0;
         flex-basis: calc(50% - 8px);
-        flex-grow: 0;
-        flex-shrink: 0;
-        flex-grow: 0;
-        flex-shrink: 0;
-        flex-basis: calc(50%-8px);
+        align-items: center;
+        justify-content: space-around;
     }
 
     ._chat_div_cont_img {
-        padding: 12px;
+        /* padding: 12px; */
+        padding: 12px 12px 12px 0;
         display: flex;
         flex-direction: column;
-        /* justify-content: space-around; */
-        height: 100%;
+        margin-top: 18px;
+        margin-bottom: 15px;
+
+        gap: 5px;
     }
 
     .cont_h1_p {
         display: flex;
         flex-direction: column;
         gap: 4px;
+    }
+
+    .d-block {
+
+        letter-spacing: -1.2px;
+        line-height: 32px;
+        font-family: Azure-B;
+    }
+
+    .cont_img img {
+        height: 32px;
+        width: 40px;
+    }
+
+    .need_help {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.42px;
+        font-family: Azure-N;
+        color: rgb(220, 238, 248);
     }
 
     .chat_div_right {
@@ -1739,13 +1763,16 @@ button {
         /* padding: ; */
         flex-direction: column;
         gap: 10px;
+        
     }
 
     .chat_div_inp {
         padding: 20px 16px;
         width: 100%;
-        height: 52px;
+        border-radius: 33px;
+        color: grey;
     }
+
 
     .chat_inp_prompt {
         border-radius: 0.5rem;
@@ -1753,7 +1780,6 @@ button {
         height: 52px;
         width: 100%;
         align-items: center;
-        background-color: #fff;
     }
 
     .linear_border {
@@ -1767,6 +1793,12 @@ button {
 
     .chat_div_right_top {
         width: 100%;
+        max-width: 656px;
+        /* height: 64p  x; */
+        background-color: #fff;
+        border-radius: 8px;
+
+
     }
 
     .chat_div_right svg {
@@ -1787,9 +1819,11 @@ button {
 
     .chat_div_right_bottom button {
         color: #fff;
-        padding: 8px;
-        border: 2px solid rgb(141, 200, 232);
+        padding: 8px 10px;
+        border: 1px solid rgb(141, 200, 232);
         border-radius: 8px;
+        font-family: Azure-n;
+        line-height: 20px;
     }
 
     /* nav right */
@@ -2060,6 +2094,7 @@ button {
         list-style-type: none;
         overflow: auto;
         scrollbar-width: none;
+        padding-inline-start: 4px;
     }
 
     .featured_desk_c_left ul li {
@@ -2071,8 +2106,19 @@ button {
         min-width: max-content;
     }
 
+    .featured_desk_c_left ul li:first-child{
+        padding-left: 4px;
+        padding-bottom: 4px;
+    }
+
     .desk_c_left_cont {
         padding-bottom: 16px;
+        font-family: Azure-B;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: -0.48px;
+        line-height: 24px;
+        color: #004275;
     }
 
     .featured_desk_c_left ul li {}
@@ -2228,6 +2274,66 @@ button {
     }
 
 
+
+
+
+
+
+    .logo_desk_p {
+        padding: 13px 6px 16px 10px;
+        margin-top: 0;
+    }
+
+    .search {
+        margin-right: 6px;
+        /* padding-top: 15px;
+    padding-bottom: 30px; */
+        width: auto;
+    }
+
+
+    .container-p {
+        padding: 0 56px;
+    }
+
+    .container-para {
+        padding-right: 32px;
+        margin-top: 24px;
+        margin-bottom: 32px;
+    }
+
+    .limitless {
+        margin-bottom: 16px;
+    }
+
+    .cont-btn-w {
+        padding: 0px 16px;
+    }
+
+    .cont-btn-a- {
+        border: 2px solid transparent;
+
+    }
+
+    .content-btn .cont-btn-a- {
+        height: unset;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     .container-p {
         top: 137px;
     }
@@ -2247,8 +2353,8 @@ button {
 
 
     .js-ul {
-        max-height :492px;
-        min-height : 223px;
+        max-height: 492px;
+        min-height: 223px;
         overflow-x: hidden;
     }
 
@@ -2258,9 +2364,9 @@ button {
 
 
 
-.next_step_cards{
-    gap: 16px;
-}
+    .next_step_cards {
+        gap: 16px;
+    }
 
 
 
@@ -2321,3 +2427,5 @@ button {
 
 
 }
+
+@media screen and (min-width:1440px) {}
