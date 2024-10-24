@@ -722,12 +722,20 @@ button {
     font-size: 1.5rem;
     line-height: 2rem;
     letter-spacing: -0.05em;
+    font-family: Azure-B;
 }
 
 .promo-p-cnt-btn {
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
+}
+
+.promo-p-cnt {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: Azure-n;
 }
 
 .promo-p-btn {
@@ -1503,7 +1511,8 @@ button {
     .promo-p-btn {
         display: block;
         width: 160px;
-        background-color: #b3daf0;
+        background-color: rgb(0, 120, 212);
+        color: #fff;
     }
 
     .swp-content {
@@ -1763,7 +1772,7 @@ button {
         /* padding: ; */
         flex-direction: column;
         gap: 10px;
-        
+
     }
 
     .chat_div_inp {
@@ -1845,9 +1854,18 @@ button {
         padding: 1.5rem;
     }
 
-    .swp-content-viewAll{
+    .card-content-area {
+        gap: 1rem;
+    }
+
+    .promo-p-cnt-btn {
+        gap: 1rem;
+    }
+
+    .swp-content-viewAll {
         padding: unset;
     }
+
     .card {
         justify-content: start;
         flex: 1 1 auto;
@@ -1860,6 +1878,35 @@ button {
         width: 50%;
     }
 
+    .view-card-bottom a span {
+        font-family: Azure-B;
+        font-size: 14px;
+        letter-spacing: -0.48px;
+        line-height: 20px;
+        color: #004275;
+        border-bottom: 1px solid darkblue;
+    }
+
+
+
+
+
+    .swp-content.swp_padd {
+        margin-top: 48px;
+    }
+
+    .Pa-cards {
+        margin-top: 48px;
+    }
+
+
+
+
+
+
+
+
+
     .js {
         display: flex;
         position: relative;
@@ -1871,7 +1918,7 @@ button {
     }
 
     .js-ul li:nth-child(1) {
-        border-left: 3px solid grey;
+        border-left: 3px solid rgb(23, 37, 61);
     }
 
     .js-li {
@@ -2109,7 +2156,7 @@ button {
         min-width: max-content;
     }
 
-    .featured_desk_c_left ul li:first-child{
+    .featured_desk_c_left ul li:first-child {
         padding-left: 4px;
         padding-bottom: 4px;
     }
@@ -2166,6 +2213,11 @@ button {
 
 
 
+    .js-ul {
+        max-height: 492px;
+        min-height: 223px;
+        overflow-x: hidden;
+    }
 
 
 
