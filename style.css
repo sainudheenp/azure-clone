@@ -748,8 +748,13 @@ button {
     font-weight: 600;
     font-size: 0.9375rem;
     font-family: Azure-B;
+    width: max-content;
 }
+.promo-p-btn-span{
+    padding-bottom: 2px;
+    line-height: 22px;
 
+}
 .cards-a6 {
     display: flex;
     flex-direction: column;
@@ -760,7 +765,6 @@ button {
 
 /* new card  */
 .card_a6_item_p {
-    /* layout col */
 }
 
 .card_a6_item_c {
@@ -768,6 +772,8 @@ button {
     background-color: #fefefe;
     border-radius: 1rem;
     padding: 1rem;
+    box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),0 0.25rem 0.5rem rgba(0, 0, 0, 0.14)
+
 }
 
 .card_a6_item_top {
@@ -1510,7 +1516,6 @@ button {
 
     .promo-p-btn {
         display: block;
-        width: 160px;
         background-color: rgb(0, 120, 212);
         color: #fff;
     }
@@ -1635,6 +1640,60 @@ button {
         height: 23px;
         width: 108px;
     }
+
+
+/* product and services */
+.promo-p-btn{
+    padding: 12px 16px;
+    border: 2px solid transparent;
+}
+
+
+.swp-cont-btn{
+    gap: 3rem;
+
+}
+
+
+/* resources */
+.res-p{
+    padding-top: 72px;
+}
+.res-top-header-l{
+    font-size: 1.875rem;
+    margin-bottom:32px;
+}
+.res-top-header-s{
+    margin-bottom:   8px;
+    
+}
+
+.ob{
+    gap:1rem;
+}
+
+.azure-global-h2{
+    font-size: 40px;
+    line-height:48px;
+    letter-spacing: -2px;
+
+}
+.azure-global-text{
+    margin-top: 24px;
+    padding: 0 48px;
+}
+.custom-see-p{
+    padding: 72px 0 ;
+}
+.custom-top-header-content{
+    margin-bottom: 32px;
+}
+
+
+
+
+
+/*  */
 
     .bar_azure {
         font-size: 18px;
