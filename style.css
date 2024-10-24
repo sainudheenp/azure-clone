@@ -2050,7 +2050,8 @@ button {
         letter-spacing: -0.48px;
         font-size: 16px;
         width: 500px;
-        flex-grow: 1;
+        /* flex-grow: 1; */
+        flex-grow: 21;
         flex-basis: 0;
     }
 
@@ -2213,9 +2214,9 @@ button {
 /* hide@1084 */
 @media screen and (min-width: 1083px) {
 
-.desk-container{
-    padding: 0 5%;
-}
+    .desk-container {
+        padding: 0 5%;
+    }
 
 
     .hide_1084 {
@@ -2225,6 +2226,49 @@ button {
     .list_1084 {
         display: inline;
     }
+
+
+    .container-p {
+        top: 137px;
+    }
+
+    .trust h1 {
+        font-size: 40px;
+        font-weight: 600;
+        letter-spacing: -2px;
+        line-height: 48px;
+    }
+
+    .chat_div_right_bottom ul {
+        flex-direction: row;
+    }
+
+
+
+
+    .js-ul {
+        max-height :492px;
+        min-height : 223px;
+        overflow-x: hidden;
+    }
+
+    .js-li-button {
+        padding: 2rem 0;
+    }
+
+
+
+.next_step_cards{
+    gap: 16px;
+}
+
+
+
+
+
+
+
+
 
 
     .footer-p-top {
@@ -2267,7 +2311,8 @@ button {
 
 
     }
-    .signin_azr{
+
+    .signin_azr {
         border: 1px solid black;
 
     }
