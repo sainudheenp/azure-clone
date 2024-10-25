@@ -5,12 +5,7 @@
     /* font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif; */
 }
 
-body {
-    /* font-size: 1rem;
-    font-weight: 400;
-    letter-spacing: -.03em;
-    line-height: 1.5rem; */
-}
+
 
 :root {
     --border-fill: #e6e6e6;
@@ -588,8 +583,6 @@ button {
     list-style: none;
 }
 
-.js-li {
-}
 
 .js-li-button {
     display: flex;
@@ -647,7 +640,7 @@ button {
 
 }
 .js-li-button:nth-child(1){
-    border-bottom:unset; 
+    border-bottom:unset;
 }
 
 .view-card-bottom a span {
@@ -776,8 +769,7 @@ button {
 }
 
 /* new card  */
-.card_a6_item_p {
-}
+
 
 .card_a6_item_c {
     /* height: 100%; */
@@ -890,7 +882,6 @@ button {
     background-image: url(/asset/img/mob/Mobile-Gartner-BG-2x.webp);
     padding: 1.5rem 1rem;
     background-size: cover;
-    /* padding-top: 3rem; */
 }
 
 .gartner-card {
@@ -1032,7 +1023,6 @@ button {
     color: #02243e;
 }
 
-.right-left-right .blt {}
 
 .res-left-right .left::after {
     content: "";
@@ -1515,13 +1505,7 @@ border: 1px solid transparent;
     padding: 6px 10px 0 0;
 }
 
-.footer-nav ul li a {
-    /* font-size: 11px;
-    line-height: 16px;
-    text-decoration: none;
-    color: black;
-    font-family: Azure-N; */
-}
+
 
 @media screen and (min-width: 548px) {
     .container-p {
@@ -1692,7 +1676,7 @@ border: 1px solid transparent;
 }
 .res-top-header-s{
     margin-bottom:   8px;
-    
+
 }
 
 .ob{
@@ -1912,7 +1896,6 @@ border: 1px solid transparent;
         list-style: none;
     }
 
-    .chat_div_right_bottom ul li {}
 
     .chat_div_right_bottom button {
         color: #fff;
@@ -1928,7 +1911,7 @@ border: 1px solid transparent;
     .azure-global-btn{
         margin-top: 2rem;
     }
-   
+
 
     /* nav right */
 
@@ -2001,7 +1984,7 @@ border: 1px solid transparent;
         letter-spacing: -1px;
     line-height: 28px;
 
-        
+
     }
 
 
@@ -2093,11 +2076,7 @@ border: 1px solid transparent;
         gap: 0.5rem;
     }
 
-    .card-a6-item {
-        /* flex :0 0 calc(calc(100% - calc(1rem * (3 - 1))) / 3) ;
-        /* flex: 0 0 calc(calc(100% - calc(1rem * (3 - 1))) / 3); */
-        /*  column-count: 3; */
-    }
+
 
     /* gartner */
     .gartner-card {
@@ -2124,7 +2103,7 @@ border: 1px solid transparent;
         width: 60%;
         margin: auto;
         margin-top: 32px;
-        padding: 24px;   
+        padding: 24px;
 
     }
 
@@ -2226,7 +2205,7 @@ border: 1px solid transparent;
     }
 
     /* featured_desk nav */
-    .featured_desk_p {}
+
 
     .featured_desk_c {
         padding: 0 3.5rem;
@@ -2266,7 +2245,7 @@ border: 1px solid transparent;
         padding-left: 4px;
         /* padding-bottom: 4px; */
     }
-   
+
 
     .desk_c_left_cont {
         padding-bottom: 16px;
@@ -2278,8 +2257,7 @@ border: 1px solid transparent;
         color: #004275;
     }
 
-    .featured_desk_c_left ul li {}
-
+   
     .featured_desk_c_right {
         margin-left: 32px;
         flex-grow: 1;
@@ -2502,7 +2480,7 @@ border: 1px solid transparent;
 
 .viewAll span{
     letter-spacing: -0.48px;
-    
+
 }
 
 
@@ -2551,7 +2529,7 @@ border: 1px solid transparent;
 
 /*  */
     ._chat_div_cont_img {
-      
+
         margin-top: unset;
         margin-bottom: unset;
     }
