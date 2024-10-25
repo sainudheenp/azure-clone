@@ -972,8 +972,10 @@ button {
     padding-right: 1rem;
     padding-left: 1rem;
     padding-top: 3rem;
-    object-fit: cover;
+    /* object-fit: cover; */
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .res-top-header-s {
@@ -1066,6 +1068,9 @@ button {
 .ob-image {
     padding: 1rem;
     margin-top: 1.5rem;
+    background-color: rgba(255, 255, 255,0.1);
+border-radius: 1rem;
+border: 1px solid transparent;
 }
 
 .ob-image img {
@@ -1331,6 +1336,16 @@ button {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+}
+
+
+
+.explore-migration{
+    color: #004275;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-family: Azure-B;
 }
 
 /* util */
@@ -1972,7 +1987,13 @@ button {
 
 
 
+    .optimize span{
+        font-size: 20px;
+        letter-spacing: -1px;
+    line-height: 28px;
 
+        
+    }
 
 
 
@@ -2086,15 +2107,18 @@ button {
     }
 
     .gartner-p-div {
-        padding: 3.5rem 3.5rem;
+        padding: 72px 3.5rem;
         padding-right: 4.5rem;
     }
 
     .ob-image {
-        width: 66%;
+        width: 60%;
         margin: auto;
-        margin-top: 1.5rem;
+        margin-top: 32px;
+        padding: 24px;   
+
     }
+
 
     .obi {
         padding-top: 2rem;
