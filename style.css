@@ -401,7 +401,7 @@ button {
 }
 
 .content-head-l {
-    font-size: 1.5rem;
+    font-size: 32px;
     font-weight: 600;
     line-height: 2rem;
     letter-spacing: -0.05em;
@@ -583,6 +583,8 @@ button {
     list-style: none;
 }
 
+.js-li {
+}
 
 .js-li-button {
     display: flex;
@@ -635,12 +637,12 @@ button {
 
 }
 
-.js-li-button{
+.js-li-button {
     border-bottom: 1px solid #bdc5d2;
 
 }
 .js-li-button:nth-child(1){
-    border-bottom:unset;
+    border-bottom:unset; 
 }
 
 .view-card-bottom a span {
@@ -755,11 +757,13 @@ button {
     font-family: Azure-B;
     width: max-content;
 }
-.promo-p-btn-span{
+
+.promo-p-btn-span {
     padding-bottom: 2px;
     line-height: 22px;
 
 }
+
 .cards-a6 {
     display: flex;
     flex-direction: column;
@@ -769,15 +773,15 @@ button {
 }
 
 /* new card  */
-
+.card_a6_item_p {
+}
 
 .card_a6_item_c {
     /* height: 100%; */
     background-color: #fefefe;
     border-radius: 1rem;
     padding: 1rem;
-    box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),0 0.25rem 0.5rem rgba(0, 0, 0, 0.14)
-
+    box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12), 0 0.25rem 0.5rem rgba(0, 0, 0, 0.14)
 }
 
 .card_a6_item_top {
@@ -1058,9 +1062,9 @@ button {
 .ob-image {
     padding: 1rem;
     margin-top: 1.5rem;
-    background-color: rgba(255, 255, 255,0.1);
-border-radius: 1rem;
-border: 1px solid transparent;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    border: 1px solid transparent;
 }
 
 .ob-image img {
@@ -1330,7 +1334,7 @@ border: 1px solid transparent;
 
 
 
-.explore-migration{
+.explore-migration {
     color: #004275;
     font-weight: 600;
     font-size: 0.875rem;
@@ -1563,7 +1567,9 @@ border: 1px solid transparent;
 
     .azure-global-btn span {
         min-width: max-content;
-        padding: 1.1rem;
+        /* padding: 1.1rem; */
+        padding: 12px 16px ;
+        border: 2px solid transparent;
         border-radius: 14px;
         background-color: #b3daf0;
     }
@@ -1653,17 +1659,17 @@ border: 1px solid transparent;
     }
 
 
-/* product and services */
-.promo-p-btn{
-    padding: 12px 16px;
-    border: 2px solid transparent;
-}
+    /* product and services */
+    .promo-p-btn {
+        padding: 12px 16px;
+        border: 2px solid transparent;
+    }
 
 
-.swp-cont-btn{
-    gap: 3rem;
+    .swp-cont-btn {
+        gap: 3rem;
 
-}
+    }
 
 
 /* resources */
@@ -1676,36 +1682,38 @@ border: 1px solid transparent;
 }
 .res-top-header-s{
     margin-bottom:   8px;
-
+    
 }
 
-.ob{
-    gap:1rem;
-}
+    .ob {
+        gap: 1rem;
+    }
 
-.azure-global-h2{
-    font-size: 40px;
-    line-height:48px;
-    letter-spacing: -2px;
-}
+    .azure-global-h2 {
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -2px;
+    }
 
-.azure-global-text{
-    margin-top: 24px;
-    padding: 0 48px;
-    line-height: 28px;
-}
-.custom-see-p{
-    padding: 72px 0 ;
-}
-.custom-top-header-content{
-    margin-bottom: 32px;
-}
+    .azure-global-text {
+        margin-top: 24px;
+        padding: 0 48px;
+        line-height: 28px;
+    }
+
+    .custom-see-p {
+        padding: 72px 0;
+    }
+
+    .custom-top-header-content {
+        margin-bottom: 32px;
+    }
 
 
 
 
 
-/*  */
+    /*  */
 
     .bar_azure {
         font-size: 18px;
@@ -1908,7 +1916,7 @@ border: 1px solid transparent;
 
 
 
-    .azure-global-btn{
+    .azure-global-btn {
         margin-top: 2rem;
     }
 
@@ -1979,10 +1987,10 @@ border: 1px solid transparent;
 
 
 
-    .optimize span{
+    .optimize span {
         font-size: 20px;
         letter-spacing: -1px;
-    line-height: 28px;
+        line-height: 28px;
 
 
     }
@@ -2262,7 +2270,7 @@ border: 1px solid transparent;
         margin-left: 32px;
         flex-grow: 1;
         display: flex;
-        justify-content:flex-end;
+        justify-content: flex-end;
     }
 
     .button_left_arrows::after {
@@ -2438,20 +2446,27 @@ border: 1px solid transparent;
         width: auto;
     }
 
-
+    /* container */
     .container-p {
-        padding: 0 56px;
+        top: 137px;
+
     }
+
+
 
     .container-para {
         padding-right: 32px;
         margin-top: 24px;
         margin-bottom: 32px;
+       
+
     }
 
     .limitless {
         margin-bottom: 16px;
     }
+
+   
 
     .cont-btn-w {
         padding: 0px 16px;
@@ -2467,12 +2482,10 @@ border: 1px solid transparent;
     }
 
 
-
-
-/* product and services */
-.cards-promo-p{
-    padding: 0 .5rem;
-}
+    /* product and services */
+    .cards-promo-p {
+        padding: 0 .5rem;
+    }
 
 
 
@@ -2480,7 +2493,7 @@ border: 1px solid transparent;
 
 .viewAll span{
     letter-spacing: -0.48px;
-
+    
 }
 
 
@@ -2491,16 +2504,8 @@ border: 1px solid transparent;
 
 
 
-    .container-p {
-        top: 137px;
-    }
+    .container-p {}
 
-    .trust h1 {
-        font-size: 40px;
-        font-weight: 600;
-        letter-spacing: -2px;
-        line-height: 48px;
-    }
 
     .chat_div_right_bottom ul {
         flex-direction: row;
@@ -2527,7 +2532,7 @@ border: 1px solid transparent;
 
 
 
-/*  */
+    /*  */
     ._chat_div_cont_img {
 
         margin-top: unset;
@@ -2590,4 +2595,142 @@ border: 1px solid transparent;
 
 }
 
-@media screen and (min-width:1440px) {}
+@media screen and (min-width:1440px) {
+
+.container-p{
+    padding: 0 72px;
+
+}
+
+    .trust h1 {
+        font-size: 48px;
+        letter-spacing: -2.4px;
+        line-height: 56px;
+    }
+
+
+
+
+
+    .container-para {
+        padding-right: 32px;
+        margin-top: 24px;
+        margin-bottom: 32px;
+        line-height: 32px;
+        letter-spacing: -0.6px;
+        font-size: 20px;
+
+    }
+
+
+
+    /* ai */
+.ai_chat_banner_rp{
+    padding: 0 72px;
+}
+.d-block{
+    font-size: 32px ;
+    line-height: 40px;
+    letter-spacing: -1.6px;
+    
+}
+
+
+
+
+/* featured */
+.featured_desk_c{
+    padding: 0 72px;
+}
+
+.inner{
+    /* padding: 0 72px; */
+    padding-left: 72px;
+    padding-right: 72px;
+}
+
+
+
+
+.cards-promo-p{
+    display: contents;
+}
+
+
+.Pa-cards{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.cards-promo{
+    flex: 0 0 25%;
+}
+
+
+.gartner-top-h2 span{
+font-size: 32px;
+line-height: 40px;
+font-weight: 600;
+letter-spacing: -1.6px;
+}
+
+
+
+/* gar */
+
+.gartner-card-image{
+    flex: 0 0 50%;
+}
+
+.gartner-top{
+    row-gap: 16px;
+}
+
+.gartner-top-bottom{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+
+.res-top-header-l{
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -2px;
+    line-height: 48px;
+}
+
+
+
+.optimize span{
+    font-size: 24px;
+    letter-spacing: -1.2px;
+    line-height: 32px;
+}
+
+.azure-global-h2{
+    font-size: 48px;
+    letter-spacing: -2.4px;
+    line-height: 56px;
+}
+
+.azure-global-text{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.6px;
+    line-height: 32px;
+}
+
+.custom-see{
+    padding: 0 72px;
+}
+.cont-bottom-div-p{
+    flex-direction: row;
+}
+
+.swp_bar_c ul{
+}
+
+
+}
