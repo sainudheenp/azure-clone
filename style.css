@@ -351,7 +351,7 @@ button {
 }
 
 .down {
-    align-self: self-end;
+    /* align-self: self-end;  iphone se*/
     font-size: 1rem;
 }
 
@@ -543,8 +543,9 @@ button {
 }
 
 .swp-content {
-    margin-top: 1.5rem;
+    margin-top: 32px;
 }
+    
 
 .swp-cont-btn {
     display: flex;
@@ -700,6 +701,7 @@ button {
     background-image: url(/asset/img/mob/361349-mobile-card-grid-product-and-services-bg-360x2110.avif);
     background-size: cover;
 }
+
 
 .Pa-cards {
     margin-top: 2rem;
