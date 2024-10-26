@@ -45,6 +45,11 @@
     display: none;
 }
 
+
+.Ai_power{
+    display: none;
+}
+
 button {
     background-color: transparent;
     border: none;
@@ -395,17 +400,24 @@ button {
     line-height: 1rem;
     letter-spacing: 0.08em;
     font-family: Azure-B;
-    /* margin-bottom: 0.75rem; */
-    margin-bottom: 8px;
+    margin-bottom: 0.75rem;
+    /* margin-bottom: 8px; */
+}
+.content-head-l {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.05em;
+    font-family: Azure-B;
 }
 
-.content-head-l {
+/* .content-head-l {
     font-size: 32px;
     font-weight: 600;
     line-height: 2rem;
     letter-spacing: -0.05em;
     font-family: Azure-B;
-}
+} */
 
 .card-container {
     margin-top: 2rem;
