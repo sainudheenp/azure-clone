@@ -2257,7 +2257,7 @@ border: 1px solid transparent;
         color: #004275;
     }
 
-   
+
     .featured_desk_c_right {
         margin-left: 32px;
         flex-grow: 1;
@@ -2335,6 +2335,7 @@ border: 1px solid transparent;
         display: flex;
         justify-content: center;
         margin-bottom: 0.25rem;
+        align-items: center;
     }
 
     .msg_icon img {
