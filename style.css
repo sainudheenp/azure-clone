@@ -45,6 +45,11 @@
     display: none;
 }
 
+
+.Ai_power{
+    display: none;
+}
+
 button {
     background-color: transparent;
     border: none;
@@ -204,7 +209,6 @@ button {
 
 .master-img img {
     width: 100%;
-    height: 628px;
     object-fit: cover;
     background-size: contain;
 }
@@ -347,7 +351,7 @@ button {
 }
 
 .down {
-    align-self: self-end;
+    /* align-self: self-end;  iphone se*/
     font-size: 1rem;
 }
 
@@ -396,17 +400,24 @@ button {
     line-height: 1rem;
     letter-spacing: 0.08em;
     font-family: Azure-B;
-    /* margin-bottom: 0.75rem; */
-    margin-bottom: 8px;
+    margin-bottom: 0.75rem;
+    /* margin-bottom: 8px; */
+}
+.content-head-l {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.05em;
+    font-family: Azure-B;
 }
 
-.content-head-l {
-    font-size: 1.5rem;
+/* .content-head-l {
+    font-size: 32px;
     font-weight: 600;
     line-height: 2rem;
     letter-spacing: -0.05em;
     font-family: Azure-B;
-}
+} */
 
 .card-container {
     margin-top: 2rem;
@@ -532,8 +543,9 @@ button {
 }
 
 .swp-content {
-    margin-top: 1.5rem;
+    margin-top: 32px;
 }
+    
 
 .swp-cont-btn {
     display: flex;
@@ -583,6 +595,7 @@ button {
     list-style: none;
 }
 
+.js-li {}
 
 .js-li-button {
     display: flex;
@@ -635,12 +648,13 @@ button {
 
 }
 
-.js-li-button{
+.js-li-button {
     border-bottom: 1px solid #bdc5d2;
 
 }
-.js-li-button:nth-child(1){
-    border-bottom:unset;
+
+.js-li-button:nth-child(1) {
+    border-bottom: unset;
 }
 
 .view-card-bottom a span {
@@ -687,6 +701,7 @@ button {
     background-image: url(/asset/img/mob/361349-mobile-card-grid-product-and-services-bg-360x2110.avif);
     background-size: cover;
 }
+
 
 .Pa-cards {
     margin-top: 2rem;
@@ -755,11 +770,13 @@ button {
     font-family: Azure-B;
     width: max-content;
 }
-.promo-p-btn-span{
+
+.promo-p-btn-span {
     padding-bottom: 2px;
     line-height: 22px;
 
 }
+
 .cards-a6 {
     display: flex;
     flex-direction: column;
@@ -769,15 +786,14 @@ button {
 }
 
 /* new card  */
-
+.card_a6_item_p {}
 
 .card_a6_item_c {
     /* height: 100%; */
     background-color: #fefefe;
     border-radius: 1rem;
     padding: 1rem;
-    box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),0 0.25rem 0.5rem rgba(0, 0, 0, 0.14)
-
+    box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12), 0 0.25rem 0.5rem rgba(0, 0, 0, 0.14)
 }
 
 .card_a6_item_top {
@@ -1058,9 +1074,9 @@ button {
 .ob-image {
     padding: 1rem;
     margin-top: 1.5rem;
-    background-color: rgba(255, 255, 255,0.1);
-border-radius: 1rem;
-border: 1px solid transparent;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    border: 1px solid transparent;
 }
 
 .ob-image img {
@@ -1330,7 +1346,7 @@ border: 1px solid transparent;
 
 
 
-.explore-migration{
+.explore-migration {
     color: #004275;
     font-weight: 600;
     font-size: 0.875rem;
@@ -1563,7 +1579,9 @@ border: 1px solid transparent;
 
     .azure-global-btn span {
         min-width: max-content;
-        padding: 1.1rem;
+        /* padding: 1.1rem; */
+        padding: 12px 16px;
+        border: 2px solid transparent;
         border-radius: 14px;
         background-color: #b3daf0;
     }
@@ -1652,60 +1670,69 @@ border: 1px solid transparent;
         width: 108px;
     }
 
+    .master-img img {
+        height: 628px;
 
-/* product and services */
-.promo-p-btn{
-    padding: 12px 16px;
-    border: 2px solid transparent;
-}
+    }
 
 
-.swp-cont-btn{
-    gap: 3rem;
-
-}
-
-
-/* resources */
-.res-p{
-    padding-top: 72px;
-}
-.res-top-header-l{
-    font-size: 1.875rem;
-    margin-bottom:32px;
-}
-.res-top-header-s{
-    margin-bottom:   8px;
-
-}
-
-.ob{
-    gap:1rem;
-}
-
-.azure-global-h2{
-    font-size: 40px;
-    line-height:48px;
-    letter-spacing: -2px;
-}
-
-.azure-global-text{
-    margin-top: 24px;
-    padding: 0 48px;
-    line-height: 28px;
-}
-.custom-see-p{
-    padding: 72px 0 ;
-}
-.custom-top-header-content{
-    margin-bottom: 32px;
-}
+    /* product and services */
+    .promo-p-btn {
+        padding: 12px 16px;
+        border: 2px solid transparent;
+    }
 
 
+    .swp-cont-btn {
+        gap: 3rem;
+
+    }
+
+
+    /* resources */
+    .res-p {
+        padding-top: 72px;
+    }
+
+    .res-top-header-l {
+        font-size: 1.875rem;
+        margin-bottom: 32px;
+    }
+
+    .res-top-header-s {
+        margin-bottom: 8px;
+
+    }
+
+    .ob {
+        gap: 1rem;
+    }
+
+    .azure-global-h2 {
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: -2px;
+    }
+
+    .azure-global-text {
+        margin-top: 24px;
+        padding: 0 48px;
+        line-height: 28px;
+    }
+
+    .custom-see-p {
+        padding: 72px 0;
+    }
+
+    .custom-top-header-content {
+        margin-bottom: 32px;
+    }
 
 
 
-/*  */
+
+
+    /*  */
 
     .bar_azure {
         font-size: 18px;
@@ -1908,7 +1935,7 @@ border: 1px solid transparent;
 
 
 
-    .azure-global-btn{
+    .azure-global-btn {
         margin-top: 2rem;
     }
 
@@ -1979,10 +2006,10 @@ border: 1px solid transparent;
 
 
 
-    .optimize span{
+    .optimize span {
         font-size: 20px;
         letter-spacing: -1px;
-    line-height: 28px;
+        line-height: 28px;
 
 
     }
@@ -2262,7 +2289,7 @@ border: 1px solid transparent;
         margin-left: 32px;
         flex-grow: 1;
         display: flex;
-        justify-content:flex-end;
+        justify-content: flex-end;
     }
 
     .button_left_arrows::after {
@@ -2439,20 +2466,27 @@ border: 1px solid transparent;
         width: auto;
     }
 
-
+    /* container */
     .container-p {
-        padding: 0 56px;
+        top: 137px;
+
     }
+
+
 
     .container-para {
         padding-right: 32px;
         margin-top: 24px;
         margin-bottom: 32px;
+
+
     }
 
     .limitless {
         margin-bottom: 16px;
     }
+
+
 
     .cont-btn-w {
         padding: 0px 16px;
@@ -2468,40 +2502,30 @@ border: 1px solid transparent;
     }
 
 
-
-
-/* product and services */
-.cards-promo-p{
-    padding: 0 .5rem;
-}
-
-
-
-
-
-.viewAll span{
-    letter-spacing: -0.48px;
-
-}
-
-
-
-
-
-
-
-
-
-    .container-p {
-        top: 137px;
+    /* product and services */
+    .cards-promo-p {
+        padding: 0 .5rem;
     }
 
-    .trust h1 {
-        font-size: 40px;
-        font-weight: 600;
-        letter-spacing: -2px;
-        line-height: 48px;
+
+
+
+
+    .viewAll span {
+        letter-spacing: -0.48px;
+
     }
+
+
+
+
+
+
+
+
+
+    .container-p {}
+
 
     .chat_div_right_bottom ul {
         flex-direction: row;
@@ -2528,7 +2552,7 @@ border: 1px solid transparent;
 
 
 
-/*  */
+    /*  */
     ._chat_div_cont_img {
 
         margin-top: unset;
@@ -2591,4 +2615,151 @@ border: 1px solid transparent;
 
 }
 
-@media screen and (min-width:1440px) {}
+@media screen and (min-width:1440px) {
+
+    .container-p {
+        padding: 0 72px;
+
+    }
+
+    .trust h1 {
+        font-size: 48px;
+        letter-spacing: -2.4px;
+        line-height: 56px;
+    }
+
+
+
+
+
+    .container-para {
+        padding-right: 32px;
+        margin-top: 24px;
+        margin-bottom: 32px;
+        line-height: 32px;
+        letter-spacing: -0.6px;
+        font-size: 20px;
+
+    }
+
+
+
+    /* ai */
+    .ai_chat_banner_rp {
+        padding: 0 72px;
+    }
+
+    .d-block {
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: -1.6px;
+
+    }
+
+
+
+
+    /* featured */
+    .featured_desk_c {
+        padding: 0 72px;
+    }
+
+    .inner {
+        /* padding: 0 72px; */
+        padding-left: 72px;
+        padding-right: 72px;
+    }
+
+
+
+
+    .cards-promo-p {
+        display: contents;
+    }
+
+
+    .Pa-cards {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .cards-promo {
+        flex: 0 0 25%;
+    }
+
+
+    .gartner-top-h2 span {
+        font-size: 32px;
+        line-height: 40px;
+        font-weight: 600;
+        letter-spacing: -1.6px;
+    }
+
+
+
+    /* gar */
+
+    .gartner-card-image {
+        flex: 0 0 50%;
+    }
+
+    .gartner-top {
+        row-gap: 16px;
+    }
+
+    .gartner-top-bottom {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 32px;
+
+    }
+
+    .res-top-header-l {
+        font-size: 40px;
+        font-weight: 600;
+        letter-spacing: -2px;
+        line-height: 48px;
+    }
+
+
+
+    .optimize span {
+        font-size: 24px;
+        letter-spacing: -1.2px;
+        line-height: 32px;
+    }
+
+    .azure-global-h2 {
+        font-size: 48px;
+        letter-spacing: -2.4px;
+        line-height: 56px;
+    }
+
+    .azure-global-text {
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: -0.6px;
+        line-height: 32px;
+    }
+
+    .custom-see {
+        padding: 0 72px;
+    }
+
+    .cont-bottom-div-p {
+        flex-direction: row;
+    }
+
+    .swp_bar_c ul {}
+
+    .footer_item_first_three {
+
+        flex: 1 1 50%;
+    }
+
+    .footer_item_second_three {
+        flex: 1 1 50%;
+    }
+
+}
