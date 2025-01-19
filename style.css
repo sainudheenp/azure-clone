@@ -589,8 +589,8 @@ button {
   list-style: none;
 }
 
-.js-li {
-}
+/* .js-li {
+} */
 
 .js-li-button {
   display: flex;
@@ -777,8 +777,8 @@ button {
 }
 
 /* new card  */
-.card_a6_item_p {
-}
+/* .card_a6_item_p {
+} */
 
 .card_a6_item_c {
   /* height: 100%; */
@@ -2437,8 +2437,8 @@ button {
     letter-spacing: -0.48px;
   }
 
-  .container-p {
-  }
+  /* .container-p {
+  } */
 
   .chat_div_right_bottom ul {
     flex-direction: row;
@@ -2621,8 +2621,8 @@ button {
     flex-direction: row;
   }
 
-  .swp_bar_c ul {
-  }
+  /* .swp_bar_c ul {
+  } */
 
   .footer_item_first_three {
     flex: 1 1 50%;
